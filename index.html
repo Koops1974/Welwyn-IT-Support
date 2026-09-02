@@ -183,25 +183,22 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: white;
-            color: var(--primary);
-            padding: 10px 12px 10px 16px;
-            border-radius: 7px;
+            color: white;
+            padding: 0;
             font-weight: 700;
-            border: 1px solid rgba(255,255,255,0.25);
         }
 
         .email-address {
-            color: #1d4ed8;
+            color: white;
             font-weight: 800;
         }
 
         .copy-email {
-            border: 0;
-            background: var(--accent);
+            border: 1px solid #475569;
+            background: transparent;
             color: white;
-            padding: 8px 12px;
-            border-radius: 6px;
+            padding: 10px 14px;
+            border-radius: 7px;
             font-weight: 700;
             cursor: pointer;
             font-size: 0.9rem;
@@ -209,11 +206,12 @@
         }
 
         .copy-email:hover {
-            background: var(--accent-dark);
+            background: #1e293b;
         }
 
         .copy-email.copied {
             background: var(--success);
+            border-color: var(--success);
         }
 
         /* INTRO */
@@ -709,8 +707,8 @@
             }
 
             .email-contact {
-                width: 100%;
-                justify-content: space-between;
+                width: auto;
+                justify-content: center;
             }
 
             .email-address {
