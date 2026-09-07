@@ -1,4 +1,21 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow major AI search engine crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Pointer to your XML sitemap
 Sitemap: https://welwyntech.co.uk/sitemap.xml
