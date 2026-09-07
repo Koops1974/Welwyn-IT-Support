@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>IT Support Welwyn | Friendly Home & Small Business IT Help</title>
+    <title>IT Support Welwyn | Friendly Home & Small Business Computer Help</title>
 
-    <meta name="description" content="IT support in Welwyn, Digswell, Codicote and surrounding areas. Friendly help with computers, Wi-Fi, email, Microsoft 365, phones, tablets and everyday technology.">
+    <meta name="description" content="Friendly, jargon-free IT support in Welwyn, Digswell, Codicote, Knebworth & surrounding areas. On-site & remote help with Wi-Fi, PCs, Mac, email & Microsoft 365.">
 
     <meta name="keywords" content="IT support Welwyn, computer help Welwyn, IT support Digswell, computer support Codicote, Wi-Fi help Welwyn, small business IT support Welwyn, Microsoft 365 support Welwyn, computer technician Welwyn">
 
@@ -17,6 +17,13 @@
 
     <link rel="canonical" href="https://www.welwyntech.co.uk/">
 
+    <!-- OPEN GRAPH / SOCIAL SHARING -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.welwyntech.co.uk/">
+    <meta property="og:title" content="IT Support Welwyn | Friendly Home & Small Business Help">
+    <meta property="og:description" content="Patient, plain-English IT support for computers, Wi-Fi, email and mobile devices in Welwyn and surrounding Hertfordshire areas.">
+    <meta property="og:image" content="https://www.welwyntech.co.uk/me.jpg">
+
     <!-- LOCAL BUSINESS SEO SCHEMA -->
     <script type="application/ld+json">
     {
@@ -24,6 +31,8 @@
       "@type": "ProfessionalService",
       "name": "Welwyn Tech",
       "url": "https://www.welwyntech.co.uk/",
+      "image": "https://www.welwyntech.co.uk/me.jpg",
+      "description": "Friendly, local IT support and tech coaching for home users and small businesses across Welwyn and surrounding areas.",
       "email": "hello@welwyntech.co.uk",
       "telephone": "+447814009859",
       "priceRange": "£25-£75",
@@ -39,6 +48,10 @@
         {
           "@type": "Place",
           "name": "Codicote"
+        },
+        {
+          "@type": "Place",
+          "name": "Knebworth"
         },
         {
           "@type": "Place",
@@ -585,17 +598,18 @@
             align-items: center;
         }
 
-        .about-placeholder {
-            background: var(--primary);
-            min-height: 320px;
+        .about-image-wrapper {
+            max-width: 320px;
+            margin: 0 auto;
             border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #94a3b8;
-            font-size: 1rem;
-            text-align: center;
-            padding: 30px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(15,23,42,0.1);
+        }
+
+        .about-image-wrapper img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
 
         .about-text h2 {
@@ -789,6 +803,8 @@
 
     </div>
 </header>
+
+    <main>
 
 
 <!-- HERO -->
@@ -1530,7 +1546,9 @@
 
 <!-- FOOTER -->
 
-<footer>
+</main>
+
+    <footer>
 
     <p>
         <strong>Welwyn Tech</strong>
