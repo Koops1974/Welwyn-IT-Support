@@ -1,0 +1,33 @@
+# Welwyn Tech
+
+> Friendly, local IT support, computer repair, and tech coaching for home users and small businesses across Welwyn and surrounding areas in Hertfordshire.
+
+## Core Information
+- **Website**: https://welwyntech.co.uk/
+- **Email**: hello@welwyntech.co.uk
+- **Phone / WhatsApp**: +44 7814 009859
+- **Coverage Areas**: Welwyn Village, Digswell, Codicote, Knebworth, Oaklands, Welwyn Garden City, and nearby Hertfordshire communities.
+- **Support Formats**: Home visits (Mondays & Fridays), remote support, and 1-on-1 coaching.
+- **Trust Indicators**: DBS Checked, Plain English Guarantee, Fully Insured.
+
+## Services Offered
+
+### 1. Home IT & Computer Support
+- **Computers & Laptops**: Diagnosing and fixing slow PCs/Macs, Windows updates, software installation, printer setup, and hardware troubleshooting.
+- **Wi-Fi & Home Networks**: Resolving Wi-Fi dropouts, fixing poor coverage, router setup, connecting smart TVs and home devices.
+- **Email & Microsoft 365**: Outlook setup, email troubleshooting, OneDrive configuration, calendar and contact sync.
+- **Phones & Tablets**: Assistance with iPhones, Android devices, new device setups, photo backups, and data transfers.
+- **Online Safety & Security**: Scam awareness, password management advice, two-factor authentication (2FA) setup, and account protection.
+
+### 2. One-to-One Tech Coaching
+- Patient, jargon-free tuition tailored to personal learning pace.
+- Learning apps, software, safe web browsing, and general device confidence.
+
+### 3. Small Business IT Support
+- Flexible, pay-as-you-go IT support without mandatory long-term contracts.
+- Computer and laptop provisioning, Microsoft 365 administration, business email setup, network security, multi-factor authentication, and basic backup strategy.
+
+## Pricing Structure
+- **Home IT Support & Tech Coaching**: £30 for the first 30 minutes, then £15 per 15 minutes thereafter.
+- **Remote Support**: £25 for the first 30 minutes, then £15 per 15 minutes thereafter.
+- **Specialist Projects** (e.g., new device setup, Wi-Fi installations, malware removal): Available from £50.
