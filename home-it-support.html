@@ -17,7 +17,7 @@
     <meta property="og:description" content="Friendly, patient home IT support in Welwyn, Digswell, and Knebworth. Wi-Fi fixes, PC & Mac help, device setups, and patient tech coaching. Clear rates starting from £25.">
     <meta property="og:image" content="https://www.welwyntech.co.uk/og-home-it.jpg">
 
-    <!-- Embedded CSS Styling (Matching Main Site Palette) -->
+    <!-- Embedded CSS Styling -->
     <style>
         :root {
             --primary-navy: #0f172a;
@@ -29,10 +29,9 @@
             --text-dark: #1e293b;
             --text-muted: #64748b;
             --border-color: #e2e8f0;
-            --success-green: #10b981;
             --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
-            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             --radius-md: 8px;
             --radius-lg: 12px;
         }
@@ -191,10 +190,10 @@
             margin-bottom: 1rem;
         }
 
-        /* SERVICES GRID */
+        /* SERVICES GRID - Balanced 3 Cards */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
         }
 
@@ -415,7 +414,7 @@
         }
     </style>
 
-    <!-- JSON-LD Residential Service Schema with Exact Pricing Offers -->
+    <!-- Schema Markup -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -497,7 +496,7 @@
         </div>
     </section>
 
-    <!-- CORE SERVICES GRID -->
+    <!-- CORE SERVICES GRID (BALANCED 3 CARDS) -->
     <section class="section services-home" id="services" aria-labelledby="services-heading">
         <div class="container">
             <div class="section-heading">
@@ -533,25 +532,13 @@
 
                 <article class="card">
                     <div class="icon" aria-hidden="true">🎓</div>
-                    <h3>Tech Coaching</h3>
-                    <p>One-to-one tuition tailored specifically to what you want to learn at a calm, patient, and comfortable pace.</p>
+                    <h3>Tech Coaching & Security</h3>
+                    <p>One-to-one tuition tailored specifically to what you want to learn, combined with essential account & photo backup protection.</p>
                     <ul>
                         <li>iPhone, iPad, & smartphone lessons</li>
-                        <li>Online safety, password, & scam protection</li>
-                        <li>Video calls (Zoom, WhatsApp, FaceTime)</li>
-                        <li>Custom written step-by-step guidance</li>
-                    </ul>
-                </article>
-
-                <article class="card">
-                    <div class="icon" aria-hidden="true">🔒</div>
-                    <h3>Home Data Security</h3>
-                    <p>Keep your personal records, photos, and family digital assets protected from unexpected hardware failure or scams.</p>
-                    <ul>
-                        <li>Cloud photo backups (iCloud, Google)</li>
-                        <li>Password management setup</li>
-                        <li>Phishing & email fraud protection</li>
-                        <li>External storage backup routines</li>
+                        <li>Online safety & scam protection</li>
+                        <li>Cloud photo backup configuration</li>
+                        <li>Custom step-by-step personal guides</li>
                     </ul>
                 </article>
 
@@ -586,7 +573,7 @@
         </div>
     </section>
 
-    <!-- PRICING SECTION - Exact Match to Homepage Rates & Copy -->
+    <!-- PRICING SECTION -->
     <section class="section pricing-home" id="pricing" aria-labelledby="pricing-heading">
         <div class="container">
             <div class="section-heading">
@@ -642,6 +629,62 @@
             </div>
         </div>
     </section>
+
+    <!-- NEW FOOTER WITH SILO INTERNAL LINKS -->
+    <footer style="background-color: #0f172a; color: #f8fafc; padding: 3rem 1.5rem 2rem 1.5rem; font-family: system-ui, -apple-system, sans-serif;">
+        <div style="max-width: 1140px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; border-bottom: 1px solid #334155; padding-bottom: 2rem;">
+            
+            <!-- Column 1: Brand & Bio -->
+            <div>
+                <p style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin-bottom: 0.75rem;">
+                    Welwyn Tech
+                </p>
+                <p style="color: #94a3b8; font-size: 0.95rem; line-height: 1.5;">
+                    Friendly local IT support for homes and small businesses in Welwyn, Digswell, Codicote, Knebworth, and surrounding Hertfordshire areas.
+                </p>
+            </div>
+
+            <!-- Column 2: Quick Links (Internal Link Hub) -->
+            <div>
+                <p style="font-size: 1rem; font-weight: 600; color: #ffffff; margin-bottom: 0.75rem;">
+                    Quick Links
+                </p>
+                <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem;">
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://www.welwyntech.co.uk/" style="color: #cbd5e1; text-decoration: none;">Home</a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://www.welwyntech.co.uk/home-it-support.html" style="color: #cbd5e1; text-decoration: none;">Home IT Support</a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://www.welwyntech.co.uk/small-business-it-support.html" style="color: #cbd5e1; text-decoration: none;">Small Business IT Support</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact & Direct Actions -->
+            <div>
+                <p style="font-size: 1rem; font-weight: 600; color: #ffffff; margin-bottom: 0.75rem;">
+                    Get in Touch
+                </p>
+                <p style="margin-bottom: 0.5rem; font-size: 0.95rem;">
+                    <a href="tel:+447814009859" style="color: #cbd5e1; text-decoration: none;">📞 07814 009859</a>
+                </p>
+                <p style="margin-bottom: 0.5rem; font-size: 0.95rem;">
+                    <a href="https://wa.me/447814009859" target="_blank" rel="noopener" style="color: #06b6d4; text-decoration: none; font-weight: 600;">💬 Chat on WhatsApp</a>
+                </p>
+                <p style="margin-bottom: 0.5rem; font-size: 0.95rem;">
+                    <a href="mailto:hello@welwyntech.co.uk" style="color: #cbd5e1; text-decoration: none;">✉️ hello@welwyntech.co.uk</a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Copyright Sub-Footer -->
+        <div style="max-width: 1140px; margin: 1.5rem auto 0 auto; text-align: center; color: #64748b; font-size: 0.875rem;">
+            <p>© 2026 Welwyn Tech. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
