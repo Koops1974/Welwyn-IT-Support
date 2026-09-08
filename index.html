@@ -23,8 +23,6 @@
     <meta property="og:title" content="IT Support Welwyn | Friendly Home & Small Business Help">
     <meta property="og:description" content="Patient, plain-English IT support for computers, Wi-Fi, email and mobile devices in Welwyn and surrounding Hertfordshire areas.">
     <meta property="og:image" content="https://www.welwyntech.co.uk/me.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
 
     <!-- LOCAL BUSINESS SEO SCHEMA -->
     <script type="application/ld+json">
@@ -79,80 +77,6 @@
     }
     </script>
 
-    <!-- FAQ SEO SCHEMA -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need to know what's wrong before contacting you?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Just tell me what is happening in your own words. I'll help work out what the problem is."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide home IT support in Welwyn?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Home visits are available in Welwyn Village, Digswell, Knebworth and surrounding areas, currently on Mondays and Fridays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you help with computer and Wi-Fi problems remotely?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many software, email and computer problems can be resolved remotely without needing a home visit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you help small businesses with IT?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. I can provide occasional IT help for small businesses, including computers, Microsoft 365, email, Wi-Fi, security and general troubleshooting, without requiring a complicated support contract."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you help with Microsoft 365 and Outlook?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. I can help with Microsoft 365, Outlook, email setup, OneDrive, calendars, contacts and general account configuration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you repair broken laptop screens or hardware?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "I specialise in software, configuration, troubleshooting and digital setup rather than physical hardware repairs or component replacement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you explain what you're doing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. I believe you should understand what has happened and what I'm doing to resolve it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you help people who aren't very confident with technology?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. That's exactly who this service is designed for. There are no silly questions and no technical knowledge required."
-          }
-        }
-      ]
-    }
-    </script>
-
     <style>
         :root {
             --primary: #0f172a;
@@ -196,7 +120,6 @@
         }
 
         /* HEADER */
-
         header {
             background: var(--primary);
             color: white;
@@ -237,10 +160,8 @@
         }
 
         /* HERO */
-
         .hero {
-            background:
-                linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,41,59,0.94));
+            background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,41,59,0.94));
             color: white;
             padding: 90px 20px;
             text-align: center;
@@ -318,7 +239,6 @@
         }
 
         /* EMAIL CONTACT */
-
         .email-contact {
             display: inline-flex;
             align-items: center;
@@ -355,10 +275,9 @@
         }
 
         /* INTRO */
-
         .intro {
             background: white;
-            padding: 65px 0;
+            padding: 65px 0 35px 0;
             text-align: center;
         }
 
@@ -381,7 +300,6 @@
         }
 
         /* SECTIONS */
-
         .section {
             padding: 75px 0;
         }
@@ -397,8 +315,51 @@
             font-size: 1.05rem;
         }
 
-        /* SERVICES */
+        /* ABOUT */
+        .about-section {
+            background: white;
+            padding: 35px 0 75px 0;
+        }
 
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-placeholder {
+            text-align: center;
+        }
+
+        .about-text h2 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 18px;
+        }
+
+        .about-text p {
+            margin-bottom: 15px;
+            color: var(--muted);
+        }
+
+        .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        .trust-badge {
+            background: var(--accent-light);
+            color: #1e40af;
+            padding: 8px 13px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 700;
+        }
+
+        /* SERVICES */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -459,7 +420,6 @@
         }
 
         /* BUSINESS */
-
         .business {
             background: var(--accent-light);
         }
@@ -506,7 +466,6 @@
         }
 
         /* HOW IT WORKS */
-
         .how {
             background: white;
         }
@@ -546,7 +505,6 @@
         }
 
         /* PRICING */
-
         .pricing-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -601,7 +559,6 @@
         }
 
         /* WHY */
-
         .why {
             background: var(--primary);
             color: white;
@@ -637,7 +594,6 @@
         }
 
         /* LOCAL */
-
         .local {
             background: white;
             text-align: center;
@@ -665,58 +621,7 @@
             font-size: 0.9rem;
         }
 
-        /* ABOUT */
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1.3fr;
-            gap: 50px;
-            align-items: center;
-        }
-
-        .about-image-wrapper {
-            max-width: 320px;
-            margin: 0 auto;
-            border-radius: 14px;
-            overflow: hidden;
-            box-shadow: 0 10px 25px rgba(15,23,42,0.1);
-        }
-
-        .about-image-wrapper img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .about-text h2 {
-            color: var(--primary);
-            font-size: 2rem;
-            margin-bottom: 18px;
-        }
-
-        .about-text p {
-            margin-bottom: 15px;
-            color: var(--muted);
-        }
-
-        .trust-badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 22px;
-        }
-
-        .trust-badge {
-            background: var(--accent-light);
-            color: #1e40af;
-            padding: 8px 13px;
-            border-radius: 50px;
-            font-size: 0.88rem;
-            font-weight: 700;
-        }
-
         /* FAQ */
-
         .faq {
             background: white;
         }
@@ -746,7 +651,6 @@
         }
 
         /* CTA */
-
         .cta {
             background: linear-gradient(135deg, #1d4ed8, #2563eb);
             color: white;
@@ -774,25 +678,61 @@
         }
 
         /* FOOTER */
-
         footer {
             background: var(--primary);
             color: #94a3b8;
-            text-align: center;
-            padding: 30px 20px;
+            padding: 50px 20px 30px;
             font-size: 0.9rem;
         }
 
-        footer strong {
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand h3 {
             color: white;
+            font-size: 1.3rem;
+            margin-bottom: 12px;
         }
 
-        footer a {
+        .footer-brand p {
+            line-height: 1.6;
+        }
+
+        .footer-col h4 {
+            color: white;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 8px;
+        }
+
+        .footer-col a {
             color: #93c5fd;
+            transition: 0.2s;
         }
 
-        /* MOBILE */
+        .footer-col a:hover {
+            color: white;
+            text-decoration: underline;
+        }
 
+        .footer-bottom {
+            border-top: 1px solid #1e293b;
+            padding-top: 25px;
+            text-align: center;
+        }
+
+        /* MOBILE RESPONSIVENESS */
         @media (max-width: 850px) {
             .services-grid,
             .pricing-grid,
@@ -805,7 +745,8 @@
             }
 
             .about-grid,
-            .business-grid {
+            .business-grid,
+            .footer-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -840,11 +781,11 @@
             }
 
             .intro {
-                padding: 50px 0;
+                padding: 50px 0 20px 0;
             }
 
-            .about-placeholder {
-                min-height: 220px;
+            .about-section {
+                padding: 20px 0 55px 0;
             }
 
             .email-contact {
@@ -862,33 +803,25 @@
 <body>
 
 <!-- HEADER -->
-
 <header>
     <div class="container header-inner">
-
         <div class="logo">
             Welwyn <span>Tech</span>
         </div>
-
         <a class="header-button"
            href="https://wa.me/447814009859"
            target="_blank"
            rel="noopener">
             💬 WhatsApp Me
         </a>
-
     </div>
 </header>
 
-    <main>
-
+<main>
 
 <!-- HERO -->
-
 <section class="hero">
-
     <div class="hero-content">
-
         <div class="badge">
             📍 Local IT Support in Welwyn & Surrounding Areas
         </div>
@@ -905,7 +838,6 @@
         </p>
 
         <div class="hero-buttons">
-
             <a class="btn btn-primary"
                href="https://wa.me/447814009859"
                target="_blank"
@@ -932,531 +864,47 @@
                href="#services">
                 See How I Can Help
             </a>
-
         </div>
-
     </div>
-
 </section>
 
-
 <!-- INTRO -->
-
 <section class="intro">
-
     <div class="container intro-content">
-
         <h2>Technology should make life easier</h2>
-
         <p>
             Whether something has stopped working, you've bought a new device,
             or you'd simply like someone to show you how something works,
             I provide friendly local IT support designed around you.
         </p>
-
     </div>
-
 </section>
 
-
-<!-- SERVICES -->
-
-<section class="section" id="services">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>IT Support Services in Welwyn</h2>
-
-            <p>
-                From everyday computer problems to setting up your home technology,
-                I'll help you get things working and explain what's going on.
-            </p>
-
-        </div>
-
-
-        <div class="services-grid">
-
-            <div class="card">
-
-                <div class="icon">💻</div>
-
-                <h3>Computers & Laptops</h3>
-
-                <p>
-                    Help when your PC or laptop isn't behaving as it should.
-                </p>
-
-                <ul>
-                    <li>Slow computers</li>
-                    <li>Windows problems</li>
-                    <li>Software installation</li>
-                    <li>Updates and configuration</li>
-                    <li>Printers and peripherals</li>
-                </ul>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">📶</div>
-
-                <h3>Wi-Fi & Home Networks</h3>
-
-                <p>
-                    Get your home network working reliably throughout the house.
-                </p>
-
-                <ul>
-                    <li>Wi-Fi dropouts</li>
-                    <li>Poor coverage</li>
-                    <li>Router setup</li>
-                    <li>Printer connections</li>
-                    <li>Smart TVs and devices</li>
-                </ul>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">📧</div>
-
-                <h3>Email & Microsoft 365</h3>
-
-                <p>
-                    Help getting your email and online services working properly.
-                </p>
-
-                <ul>
-                    <li>Outlook setup</li>
-                    <li>Email problems</li>
-                    <li>Microsoft 365 help</li>
-                    <li>OneDrive</li>
-                    <li>Calendars and contacts</li>
-                </ul>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">📱</div>
-
-                <h3>Phones & Tablets</h3>
-
-                <p>
-                    Make the most of your phone or tablet without the frustration.
-                </p>
-
-                <ul>
-                    <li>iPhone and Android help</li>
-                    <li>New device setup</li>
-                    <li>Apps and accounts</li>
-                    <li>Photos and backups</li>
-                    <li>Moving to a new device</li>
-                </ul>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">🔐</div>
-
-                <h3>Online Safety</h3>
-
-                <p>
-                    Practical help keeping your accounts and devices safer online.
-                </p>
-
-                <ul>
-                    <li>Scam awareness</li>
-                    <li>Password advice</li>
-                    <li>Multi-factor authentication</li>
-                    <li>Account security</li>
-                    <li>Safe online shopping</li>
-                </ul>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">👨‍🏫</div>
-
-                <h3>One-to-One Tech Coaching</h3>
-
-                <p>
-                    Patient, personal help so you can become more confident with technology.
-                </p>
-
-                <ul>
-                    <li>Learn at your own pace</li>
-                    <li>Help with apps and software</li>
-                    <li>Personalised lessons</li>
-                    <li>No technical jargon</li>
-                    <li>Questions welcome</li>
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- SMALL BUSINESS -->
-
-<section class="section business">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>IT Help for Small Businesses</h2>
-
-            <p>
-                Not every small business needs a full-time IT company.
-                I can provide practical, straightforward IT help when you need it.
-            </p>
-
-        </div>
-
-
-        <div class="business-grid">
-
-            <div class="business-card">
-
-                <h3>💼 Everyday Business IT</h3>
-
-                <p>
-                    Help keeping your business technology working without
-                    complicated support contracts.
-                </p>
-
-                <ul>
-                    <li>Computer and laptop setup</li>
-                    <li>Microsoft 365</li>
-                    <li>Business email</li>
-                    <li>Wi-Fi and networking</li>
-                    <li>Printers and devices</li>
-                </ul>
-
-            </div>
-
-
-            <div class="business-card">
-
-                <h3>🔐 Security & Setup</h3>
-
-                <p>
-                    Practical advice to help keep your business accounts,
-                    devices and data safer.
-                </p>
-
-                <ul>
-                    <li>Account security</li>
-                    <li>Multi-factor authentication</li>
-                    <li>Backup advice</li>
-                    <li>Security reviews</li>
-                    <li>General IT troubleshooting</li>
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- HOW IT WORKS -->
-
-<section class="section how">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>Getting IT Support Is Easy</h2>
-
-            <p>
-                No complicated booking systems and no need to know what's technically wrong.
-            </p>
-
-        </div>
-
-
-        <div class="steps">
-
-            <div class="step">
-                <div class="step-number">1</div>
-                <h3>Get in Touch</h3>
-                <p>
-                    Send me a WhatsApp message or email and tell me what's happening.
-                </p>
-            </div>
-
-            <div class="step">
-                <div class="step-number">2</div>
-                <h3>Tell Me the Problem</h3>
-                <p>
-                    Don't worry about technical terms. Just explain it in your own words.
-                </p>
-            </div>
-
-            <div class="step">
-                <div class="step-number">3</div>
-                <h3>Arrange a Time</h3>
-                <p>
-                    We'll arrange a convenient time for remote or local support.
-                </p>
-            </div>
-
-            <div class="step">
-                <div class="step-number">4</div>
-                <h3>Get It Sorted</h3>
-                <p>
-                    I'll fix the problem or show you how to do it yourself.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PRICING -->
-
-<section class="section" id="pricing">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>Simple, Transparent IT Support Pricing</h2>
-
-            <p>
-                Clear pricing with no complicated support contracts.
-            </p>
-
-        </div>
-
-
-        <div class="pricing-grid">
-
-            <div class="price-card featured">
-
-                <h3>Home IT Support</h3>
-
-                <div class="price">
-                    £30
-                    <small>/ first 30 mins</small>
-                </div>
-
-                <p class="price-description">
-                          Friendly face-to-face help at your home for computers,
-                          Wi-Fi, email and everyday technology.
-                          <br><strong>Then £15 per 15 minutes.</strong>
-                </p>
-
-            </div>
-
-
-            <div class="price-card">
-
-                <h3>Remote Support</h3>
-
-                <div class="price">
-                    £25
-                    <small>/ first 30 mins</small>
-                </div>
-
-                <p class="price-description">
-        Quick and convenient help for problems that can be
-        diagnosed and resolved remotely.
-        <br><strong>Then £15 per 15 minutes.</strong>
-                </p>
-
-            </div>
-
-
-            <div class="price-card">
-
-                <h3>Tech Coaching</h3>
-
-                <div class="price">
-                    £30
-                    <small>/ first 30 mins</small>
-                </div>
-
-                <p class="price-description">
-                    One-to-one tuition tailored to what you want to learn.
-                    <br><strong>Then £15 per 15 minutes.</strong>
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <p class="pricing-note">
-               Specialist services such as new computer setup, Wi-Fi installations,
-                data transfers and malware cleanup are available from £50 depending
-                on the work required. I'll always explain what needs doing and agree
-                any additional cost with you first.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- WHY CHOOSE ME -->
-
-<section class="section why">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>Why Choose Welwyn Tech?</h2>
-
-            <p>
-                Professional IT experience combined with a friendly, local approach.
-            </p>
-
-        </div>
-
-
-        <div class="why-grid">
-
-            <div class="why-card">
-
-                <h3>📍 Local & Personal</h3>
-
-                <p>
-                    Local face-to-face IT support for residents and small businesses
-                    in Welwyn, Digswell, Knebworth and surrounding areas.
-                </p>
-
-            </div>
-
-
-            <div class="why-card">
-
-                <h3>🛡️ Experienced & Trusted</h3>
-
-                <p>
-                    An experienced IT professional with a background supporting
-                    schools and organisations. DBS checked and used to working
-                    in environments where trust matters.
-                </p>
-
-            </div>
-
-
-            <div class="why-card">
-
-                <h3>💬 No Jargon</h3>
-
-                <p>
-                    I'll explain the problem in plain English and take the time
-                    to make sure you understand what's happening.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- LOCAL AREAS -->
-
-<section class="section local">
-
-    <div class="container local-box">
-
-        <div class="section-heading">
-
-            <h2>Local IT Support in Welwyn & Surrounding Areas</h2>
-
-            <p>
-                Providing home IT support across Welwyn Village and nearby
-                Hertfordshire communities.
-            </p>
-
-        </div>
-
-
-        <div class="areas">
-
-            <span class="area">Welwyn Village</span>
-            <span class="area">Digswell</span>
-            <span class="area">Knebworth</span>
-            <span class="area">Oaklands</span>
-            <span class="area">Welwyn Garden City</span>
-
-        </div>
-
-        <p style="margin-top:25px;color:#64748b;">
-            Home visits are currently available on <strong>Mondays and Fridays</strong>.
-            Remote support is available by arrangement.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section class="section">
-
+<!-- ABOUT (Repositioned for immediate trust & personal connection) -->
+<section class="about-section">
     <div class="container about-grid">
-
         <div class="about-placeholder">
-
-<div style="width:260px; margin:0 auto; overflow:hidden; border-radius:12px;">
-    <img src="me.jpg" alt="Welwyn Tech IT Support" style="display:block; width:100%; height:auto;">
-</div>
-
+            <div style="width:260px; margin:0 auto; overflow:hidden; border-radius:12px;">
+                <img src="me.jpg" alt="Welwyn Tech IT Support Professional" style="display:block; width:100%; height:auto;">
+            </div>
         </div>
-
 
         <div class="about-text">
-
             <h2>Professional IT Support in Welwyn</h2>
-
             <p>
                 Technology can be frustrating, especially when something suddenly
                 stops working and you don't know where to start.
             </p>
-
             <p>
                 I'm an experienced IT professional with a background supporting
                 schools and small organisations. I'm used to helping teachers,
                 staff and other users with technology and, just as importantly,
                 explaining things clearly to people who may not be technically confident.
             </p>
-
             <p>
                 I'm <strong>DBS checked</strong> and take a patient, friendly approach.
                 There are no silly questions and no need to understand technical jargon.
             </p>
-
             <p>
                 I also have professional experience with <strong>Microsoft 365,
                 IT security and general technology support</strong>, so I can help
@@ -1464,133 +912,368 @@
             </p>
 
             <div class="trust-badges">
-
                 <span class="trust-badge">✓ Experienced IT Professional</span>
                 <span class="trust-badge">✓ DBS Checked</span>
                 <span class="trust-badge">✓ Microsoft 365</span>
                 <span class="trust-badge">✓ Cyber Security Experience</span>
                 <span class="trust-badge">✓ No Jargon</span>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- FAQ -->
-
-<section class="section faq">
-
+<!-- SERVICES -->
+<section class="section" id="services">
     <div class="container">
-
         <div class="section-heading">
-
-            <h2>Frequently Asked Questions About IT Support</h2>
-
+            <h2>IT Support Services in Welwyn</h2>
+            <p>
+                From everyday computer problems to setting up your home technology,
+                I'll help you get things working and explain what's going on.
+            </p>
         </div>
 
+        <div class="services-grid">
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Computers & Laptops</h3>
+                <p>Help when your PC or laptop isn't behaving as it should.</p>
+                <ul>
+                    <li>Slow computers</li>
+                    <li>Windows problems</li>
+                    <li>Software installation</li>
+                    <li>Updates and configuration</li>
+                    <li>Printers and peripherals</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="icon">📶</div>
+                <h3>Wi-Fi & Home Networks</h3>
+                <p>Get your home network working reliably throughout the house.</p>
+                <ul>
+                    <li>Wi-Fi dropouts</li>
+                    <li>Poor coverage</li>
+                    <li>Router setup</li>
+                    <li>Printer connections</li>
+                    <li>Smart TVs and devices</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="icon">📧</div>
+                <h3>Email & Microsoft 365</h3>
+                <p>Help getting your email and online services working properly.</p>
+                <ul>
+                    <li>Outlook setup</li>
+                    <li>Email problems</li>
+                    <li>Microsoft 365 help</li>
+                    <li>OneDrive</li>
+                    <li>Calendars and contacts</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>Phones & Tablets</h3>
+                <p>Make the most of your phone or tablet without the frustration.</p>
+                <ul>
+                    <li>iPhone and Android help</li>
+                    <li>New device setup</li>
+                    <li>Apps and accounts</li>
+                    <li>Photos and backups</li>
+                    <li>Moving to a new device</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="icon">🔐</div>
+                <h3>Online Safety</h3>
+                <p>Practical help keeping your accounts and devices safer online.</p>
+                <ul>
+                    <li>Scam awareness</li>
+                    <li>Password advice</li>
+                    <li>Multi-factor authentication</li>
+                    <li>Account security</li>
+                    <li>Safe online shopping</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="icon">👨‍🏫</div>
+                <h3>One-to-One Tech Coaching</h3>
+                <p>Patient, personal help so you can become more confident with technology.</p>
+                <ul>
+                    <li>Learn at your own pace</li>
+                    <li>Help with apps and software</li>
+                    <li>Personalised lessons</li>
+                    <li>No technical jargon</li>
+                    <li>Questions welcome</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SMALL BUSINESS -->
+<section class="section business">
+    <div class="container">
+        <div class="section-heading">
+            <h2>IT Help for Small Businesses</h2>
+            <p>
+                Not every small business needs a full-time IT company.
+                I can provide practical, straightforward IT help when you need it.
+            </p>
+        </div>
+
+        <div class="business-grid">
+            <div class="business-card">
+                <h3>💼 Everyday Business IT</h3>
+                <p>
+                    Help keeping your business technology working without
+                    complicated support contracts.
+                </p>
+                <ul>
+                    <li>Computer and laptop setup</li>
+                    <li>Microsoft 365</li>
+                    <li>Business email</li>
+                    <li>Wi-Fi and networking</li>
+                    <li>Printers and devices</li>
+                </ul>
+            </div>
+
+            <div class="business-card">
+                <h3>🔐 Security & Setup</h3>
+                <p>
+                    Practical advice to help keep your business accounts,
+                    devices and data safer.
+                </p>
+                <ul>
+                    <li>Account security</li>
+                    <li>Multi-factor authentication</li>
+                    <li>Backup advice</li>
+                    <li>Security reviews</li>
+                    <li>General IT troubleshooting</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Getting IT Support Is Easy</h2>
+            <p>No complicated booking systems and no need to know what's technically wrong.</p>
+        </div>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Get in Touch</h3>
+                <p>Send me a WhatsApp message or email and tell me what's happening.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Tell Me the Problem</h3>
+                <p>Don't worry about technical terms. Just explain it in your own words.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Arrange a Time</h3>
+                <p>We'll arrange a convenient time for remote or local support.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Get It Sorted</h3>
+                <p>I'll fix the problem or show you how to do it yourself.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Simple, Transparent IT Support Pricing</h2>
+            <p>Clear pricing with no complicated support contracts.</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="price-card featured">
+                <h3>Home IT Support</h3>
+                <div class="price">
+                    £30
+                    <small>/ first 30 mins</small>
+                </div>
+                <p class="price-description">
+                    Friendly face-to-face help at your home for computers,
+                    Wi-Fi, email and everyday technology.
+                    <br><strong>Then £15 per 15 minutes.</strong>
+                </p>
+            </div>
+
+            <div class="price-card">
+                <h3>Remote Support</h3>
+                <div class="price">
+                    £25
+                    <small>/ first 30 mins</small>
+                </div>
+                <p class="price-description">
+                    Quick and convenient help for problems that can be
+                    diagnosed and resolved remotely.
+                    <br><strong>Then £15 per 15 minutes.</strong>
+                </p>
+            </div>
+
+            <div class="price-card">
+                <h3>Tech Coaching</h3>
+                <div class="price">
+                    £30
+                    <small>/ first 30 mins</small>
+                </div>
+                <p class="price-description">
+                    One-to-one tuition tailored to what you want to learn.
+                    <br><strong>Then £15 per 15 minutes.</strong>
+                </p>
+            </div>
+        </div>
+
+        <p class="pricing-note">
+            Specialist services such as new computer setup, Wi-Fi installations,
+            data transfers and malware cleanup are available from £50 depending
+            on the work required. I'll always explain what needs doing and agree
+            any additional cost with you first.
+        </p>
+    </div>
+</section>
+
+<!-- WHY CHOOSE ME -->
+<section class="section why">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Why Choose Welwyn Tech?</h2>
+            <p>Professional IT experience combined with a friendly, local approach.</p>
+        </div>
+
+        <div class="why-grid">
+            <div class="why-card">
+                <h3>📍 Local & Personal</h3>
+                <p>
+                    Local face-to-face IT support for residents and small businesses
+                    in Welwyn, Digswell, Knebworth and surrounding areas.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <h3>🛡️ Experienced & Trusted</h3>
+                <p>
+                    An experienced IT professional with a background supporting
+                    schools and organisations. DBS checked and used to working
+                    in environments where trust matters.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <h3>💬 No Jargon</h3>
+                <p>
+                    I'll explain the problem in plain English and take the time
+                    to make sure you understand what's happening.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- LOCAL AREAS -->
+<section class="section local">
+    <div class="container local-box">
+        <div class="section-heading">
+            <h2>Local IT Support in Welwyn & Surrounding Areas</h2>
+            <p>
+                Providing home IT support across Welwyn Village and nearby
+                Hertfordshire communities.
+            </p>
+        </div>
+
+        <div class="areas">
+            <span class="area">Welwyn Village</span>
+            <span class="area">Digswell</span>
+            <span class="area">Knebworth</span>
+            <span class="area">Oaklands</span>
+            <span class="area">Welwyn Garden City</span>
+        </div>
+
+        <p style="margin-top:25px;color:#64748b;">
+            Home visits are currently available on <strong>Mondays and Fridays</strong>.
+            Remote support is available by arrangement.
+        </p>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Frequently Asked Questions About IT Support</h2>
+        </div>
 
         <div class="faq-list">
-
             <details>
                 <summary>Do I need to know what's wrong before contacting you?</summary>
-                <p>
-                    No. Just tell me what is happening in your own words.
-                    I'll help work out what the problem is.
-                </p>
+                <p>No. Just tell me what is happening in your own words. I'll help work out what the problem is.</p>
             </details>
-
 
             <details>
                 <summary>Do you provide home IT support in Welwyn?</summary>
-                <p>
-                    Yes. Home visits are available in Welwyn Village, Digswell,
-                    Knebworth and surrounding areas, currently on Mondays and Fridays.
-                </p>
+                <p>Yes. Home visits are available in Welwyn Village, Digswell, Knebworth and surrounding areas, currently on Mondays and Fridays.</p>
             </details>
-
 
             <details>
                 <summary>Can you help with computer and Wi-Fi problems remotely?</summary>
-                <p>
-                    Yes. Many software, email and computer problems can be resolved
-                    remotely without needing a home visit.
-                </p>
+                <p>Yes. Many software, email and computer problems can be resolved remotely without needing a home visit.</p>
             </details>
-
 
             <details>
                 <summary>Do you help small businesses with IT?</summary>
-                <p>
-                    Yes. I can provide occasional IT help for small businesses,
-                    including computers, Microsoft 365, email, Wi-Fi, security
-                    and general troubleshooting, without requiring a complicated
-                    support contract.
-                </p>
+                <p>Yes. I can provide occasional IT help for small businesses, including computers, Microsoft 365, email, Wi-Fi, security and general troubleshooting, without requiring a complicated support contract.</p>
             </details>
-
 
             <details>
                 <summary>Do you help with Microsoft 365 and Outlook?</summary>
-                <p>
-                    Yes. I can help with Microsoft 365, Outlook, email setup,
-                    OneDrive, calendars, contacts and general account configuration.
-                </p>
+                <p>Yes. I can help with Microsoft 365, Outlook, email setup, OneDrive, calendars, contacts and general account configuration.</p>
             </details>
-
 
             <details>
                 <summary>Do you repair broken laptop screens or hardware?</summary>
-                <p>
-                    I specialise in software, configuration, troubleshooting and
-                    digital setup rather than physical hardware repairs or component
-                    replacement.
-                </p>
+                <p>I specialise in software, configuration, troubleshooting and digital setup rather than physical hardware repairs or component replacement.</p>
             </details>
-
 
             <details>
                 <summary>Will you explain what you're doing?</summary>
-                <p>
-                    Absolutely. I believe you should understand what has happened
-                    and what I'm doing to resolve it.
-                </p>
+                <p>Absolutely. I believe you should understand what has happened and what I'm doing to resolve it.</p>
             </details>
-
 
             <details>
                 <summary>Do you help people who aren't very confident with technology?</summary>
-                <p>
-                    Yes. That's exactly who this service is designed for.
-                    There are no silly questions and no technical knowledge required.
-                </p>
+                <p>Yes. That's exactly who this service is designed for. There are no silly questions and no technical knowledge required.</p>
             </details>
-
         </div>
-
     </div>
-
 </section>
 
-
 <!-- FINAL CTA -->
-
 <section class="cta">
-
     <div class="container">
-
         <h2>Got a tech problem?</h2>
-
-        <p>
-            Don't spend hours trying to work it out yourself.
-            Send me a message or email and tell me what's going wrong.
-        </p>
+        <p>Don't spend hours trying to work it out yourself. Send me a message or email and tell me what's going wrong.</p>
 
         <div class="cta-buttons">
-
             <a class="btn btn-primary"
                href="https://wa.me/447814009859"
                target="_blank"
@@ -1612,44 +1295,60 @@
                     Copy
                 </button>
             </div>
-
         </div>
-
     </div>
-
 </section>
-
-
-<!-- FOOTER -->
 
 </main>
 
-    <footer>
+<!-- NEW EXPANDED SEO FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Welwyn Tech</h3>
+                <p>
+                    Friendly, jargon-free local IT support and technology coaching for homes and small businesses in Welwyn, Digswell, Codicote, Knebworth, and surrounding Hertfordshire communities.
+                </p>
+            </div>
 
-    <p>
-        <strong>Welwyn Tech</strong>
-    </p>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Computer & Laptop Repairs</a></li>
+                    <li><a href="#services">Wi-Fi & Network Setup</a></li>
+                    <li><a href="#services">Microsoft 365 & Email</a></li>
+                    <li><a href="#services">Phone & Tablet Support</a></li>
+                    <li><a href="#services">Cyber Security & Online Safety</a></li>
+                    <li><a href="#services">One-to-One Tech Coaching</a></li>
+                </ul>
+            </div>
 
-    <p>
-        Friendly local IT support for homes and small businesses in Welwyn,
-        Digswell, Codicote and surrounding areas.
-    </p>
+            <div class="footer-col">
+                <h4>Service Areas</h4>
+                <ul>
+                    <li>Welwyn Village</li>
+                    <li>Digswell</li>
+                    <li>Codicote</li>
+                    <li>Knebworth</li>
+                    <li>Oaklands</li>
+                    <li>Welwyn Garden City</li>
+                </ul>
+            </div>
+        </div>
 
-    <p style="margin-top:10px;">
-        <a href="mailto:hello@welwyntech.co.uk">
-            hello@welwyntech.co.uk
-        </a>
-    </p>
-
-    <p style="margin-top:10px;">
-        © 2026 Welwyn Tech. All rights reserved.
-    </p>
-
+        <div class="footer-bottom">
+            <p>
+                Contact: <a href="mailto:hello@welwyntech.co.uk">hello@welwyntech.co.uk</a> | Phone/WhatsApp: <a href="https://wa.me/447814009859" target="_blank" rel="noopener">+44 7814 009859</a>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.85rem;">
+                © 2026 Welwyn Tech. All rights reserved.
+            </p>
+        </div>
+    </div>
 </footer>
 
-
 <!-- COPY EMAIL SCRIPT -->
-
 <script>
 function copyEmail(button) {
     const email = "hello@welwyntech.co.uk";
