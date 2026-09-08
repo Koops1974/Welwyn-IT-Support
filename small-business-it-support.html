@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Small Business IT Support Welwyn & WGC | Welwyn Tech</title>
+    <meta name="title" content="Small Business IT Support Welwyn & WGC | Welwyn Tech">
+    <meta name="description" content="Reliable, jargon-free IT support for small businesses in Welwyn, Digswell & Knebworth. Pay-as-you-go or managed options with fixed pricing. Contact us today.">
+    <link rel="canonical" href="https://www.welwyntech.co.uk/small-business-it">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.welwyntech.co.uk/small-business-it">
+    <meta property="og:title" content="Small Business IT Support Welwyn & WGC | Welwyn Tech">
+    <meta property="og:description" content="Jargon-free, flexible IT support for small businesses in Welwyn, Digswell, and Knebworth. Microsoft 365, network setup, cybersecurity & fast response times.">
+    <meta property="og:image" content="https://www.welwyntech.co.uk/og-business-it.jpg">
+
+    <!-- Embedded CSS Styling -->
+    <style>
+        /* CSS Variables - Matching Index Palette */
+        :root {
+            --primary-navy: #0f172a;
+            --primary-blue: #2563eb;
+            --primary-blue-hover: #1d4ed8;
+            --accent-cyan: #06b6d4;
+            --bg-light: #f8fafc;
+            --bg-card: #ffffff;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --success-green: #10b981;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        /* Basic Reset & Typography */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Buttons matching Index Page */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-blue-hover);
+            border-color: var(--primary-blue-hover);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary-navy);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--primary-navy);
+            background-color: var(--bg-light);
+        }
+
+        /* Section Layouts */
+        .section {
+            padding: 4rem 0;
+        }
+
+        .section-heading {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .section-heading h2 {
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-heading p {
+            font-size: 1.125rem;
+            color: var(--text-muted);
+        }
+
+        /* HERO SECTION */
+        .hero-business {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 5rem 0 4rem 0;
+            text-align: center;
+        }
+
+        .hero-business .badge {
+            display: inline-block;
+            background-color: rgba(37, 99, 235, 0.2);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            padding: 0.35rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-business h1 {
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+            font-weight: 800;
+        }
+
+        .hero-business h1 span {
+            color: var(--accent-cyan);
+        }
+
+        .hero-subtext {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            max-width: 750px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero-ctas .btn-secondary {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .hero-ctas .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: #ffffff;
+        }
+
+        /* VALUE PROPOSITION */
+        .intro-business {
+            background-color: var(--bg-light);
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .intro-business .container {
+            max-width: 800px;
+        }
+
+        .intro-business h2 {
+            font-size: 1.75rem;
+            color: var(--primary-navy);
+            margin-bottom: 1rem;
+        }
+
+        .intro-business p {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+
+        /* SERVICES GRID */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .card .icon {
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .card h3 {
+            font-size: 1.35rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+
+        .card ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+        }
+
+        .card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-blue);
+            font-weight: bold;
+        }
+
+        /* WHY CHOOSE US */
+        .why-business {
+            background-color: var(--bg-light);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .why-card {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--primary-blue);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .why-card h3 {
+            font-size: 1.2rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.5rem;
+        }
+
+        .why-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* PRICING SECTION - Exact Match to Index Page Pricing */
+        .pricing-business {
+            background-color: #ffffff;
+        }
+
+        .business-pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .price-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .price-card.featured {
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-md);
+        }
+
+        .popular-tag {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.25rem 0.85rem;
+            border-radius: 50px;
+            letter-spacing: 0.5px;
+        }
+
+        .price-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary-navy);
+            margin-bottom: 1rem;
+        }
+
+        .price-card .price {
+            font-size: 2.75rem;
+            font-weight: 800;
+            color: var(--primary-navy);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .price-card .price small {
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--text-muted);
+        }
+
+        .price-card .price-sub {
+            color: var(--primary-blue);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .price-card .description {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* CALL TO ACTION */
+        .cta-business {
+            background: var(--primary-navy);
+            color: #ffffff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .cta-business h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-business p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons .btn-secondary {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .cta-buttons .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: #ffffff;
+        }
+
+        /* Responsive Query Adjustments */
+        @media (max-width: 768px) {
+            .hero-business h1 {
+                font-size: 2rem;
+            }
+            .section-heading h2 {
+                font-size: 1.75rem;
+            }
+            .section {
+                padding: 3rem 0;
+            }
+        }
+    </style>
+
+    <!-- JSON-LD Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Small Business IT Support",
+      "provider": {
+        "@type": "ITSupport",
+        "@id": "https://www.welwyntech.co.uk/#organization",
+        "name": "Welwyn Tech",
+        "telephone": "+447814009859",
+        "email": "hello@welwyntech.co.uk",
+        "url": "https://www.welwyntech.co.uk/"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Welwyn"
+        },
+        {
+          "@type": "City",
+          "name": "Welwyn Garden City"
+        },
+        {
+          "@type": "City",
+          "name": "Digswell"
+        },
+        {
+          "@type": "City",
+          "name": "Knebworth"
+        },
+        {
+          "@type": "City",
+          "name": "Codicote"
+        }
+      ],
+      "description": "Flexible and managed IT support services for local small businesses, micro-enterprises, and sole traders in Welwyn and Hertfordshire.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Small Business Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Microsoft 365 Setup & Management"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Workstation & Device Troubleshooting"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Office Wi-Fi & Network Security"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero-business" aria-labelledby="hero-heading">
+        <div class="container">
+            <p class="badge">📍 Local Business IT Support | Welwyn & Surrounding Areas</p>
+            <h1 id="hero-heading">
+                Dependable Small Business IT Support<br>
+                <span>Without Complicated Contracts</span>
+            </h1>
+            <p class="hero-subtext">
+                Keep your business running smoothly with fast, reliable, and jargon-free IT help. 
+                From Microsoft 365 and network setups to cybersecurity and daily troubleshooting, 
+                get dedicated IT support tailored specifically for small teams and sole traders.
+            </p>
+            <div class="hero-ctas">
+                <a href="https://wa.me/447814009859" class="btn btn-primary" target="_blank" rel="noopener">💬 WhatsApp Direct</a>
+                <a href="tel:+447814009859" class="btn btn-secondary">📞 Call 07814 009859</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUE PROPOSITION -->
+    <section class="section intro-business" aria-labelledby="intro-heading">
+        <div class="container">
+            <h2 id="intro-heading">You Don't Need an Overpriced Enterprise IT Contract to Stay Secure and Efficient</h2>
+            <p>
+                Most traditional IT support providers force small businesses into expensive, multi-year contracts with minimum user limits. 
+                <strong>Welwyn Tech does things differently.</strong>
+            </p>
+            <p>
+                I provide flexible, pay-as-you-go or light monthly IT support designed specifically for local micro-businesses, retail shops, freelancers, and small offices (1–15 users). You get the expertise of a dedicated IT manager whenever you need it—without the heavy overhead.
+            </p>
+        </div>
+    </section>
+
+    <!-- CORE SERVICES GRID -->
+    <section class="section services-business" id="services" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="services-heading">Small Business IT Services in Welwyn</h2>
+                <p>Everything your business needs to stay connected, secure, and productive.</p>
+            </div>
+
+            <div class="services-grid">
+                
+                <article class="card">
+                    <div class="icon" aria-hidden="true">📧</div>
+                    <h3>Microsoft 365 & Email Setup</h3>
+                    <p>Ensure your company email, calendars, and file sharing work seamlessly across all computers and mobile devices.</p>
+                    <ul>
+                        <li>Custom domain email (@yourbusiness.co.uk)</li>
+                        <li>Outlook, Teams, & SharePoint setup</li>
+                        <li>OneDrive cloud storage configuration</li>
+                        <li>Secure email migrations with zero downtime</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">💻</div>
+                    <h3>Workstation & Device Management</h3>
+                    <p>Complete setup and fast troubleshooting for laptops, desktops, and peripherals across Windows and Mac environments.</p>
+                    <ul>
+                        <li>New employee laptop deployment</li>
+                        <li>Slow PC cleanups & software updates</li>
+                        <li>Printer & network scanner configuration</li>
+                        <li>Remote & on-site troubleshooting</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🔐</div>
+                    <h3>Cybersecurity & Data Protection</h3>
+                    <p>Protect your client data, financial records, and operational assets from scams, ransomware, and hardware failure.</p>
+                    <ul>
+                        <li>Multi-Factor Authentication (MFA) setup</li>
+                        <li>Automated cloud backups (M365 & local)</li>
+                        <li>Antivirus & endpoint security management</li>
+                        <li>Practical scam & phishing prevention advice</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">📶</div>
+                    <h3>Office Wi-Fi & Business Broadband</h3>
+                    <p>Eliminate Wi-Fi dead zones, slow connection speeds, and dropouts in your office or home workspace.</p>
+                    <ul>
+                        <li>Business-grade mesh Wi-Fi installation</li>
+                        <li>Secure guest network configuration</li>
+                        <li>Network cabling & router setup</li>
+                        <li>Work-from-Home (WFH) connectivity fixes</li>
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-business" aria-labelledby="why-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="why-heading">Why Local Small Businesses Partner with Welwyn Tech</h2>
+            </div>
+            <div class="why-grid">
+                
+                <div class="why-card">
+                    <h3>⚡ Fast Local Response</h3>
+                    <p>Based right here in Welwyn, I can provide immediate remote assistance or arrive on-site at your local business within minutes.</p>
+                </div>
+
+                <div class="why-card">
+                    <h3>📋 No Lock-In Contracts</h3>
+                    <p>Enjoy flexible ad-hoc pricing or simple month-to-month arrangements. You only pay for the support your business actually uses.</p>
+                </div>
+
+                <div class="why-card">
+                    <h3>🗣️ Jargon-Free Advice</h3>
+                    <p>No confusing technical terms or unnecessarily complicated setups. Just clear explanations and straightforward technical solutions.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION (Matches main page pricing structure) -->
+    <section class="section pricing-business" id="pricing" aria-labelledby="pricing-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="pricing-heading">Transparent Business Support Pricing</h2>
+                <p>Predictable costs tailored to small business budgets with no hidden fees.</p>
+            </div>
+
+            <div class="business-pricing-grid">
+                
+                <div class="price-card">
+                    <h3>Ad-Hoc / Pay-As-You-Go</h3>
+                    <div class="price">£40 <small>/ first 30 mins</small></div>
+                    <p class="price-sub">Then £20 per 15 minutes</p>
+                    <p class="description">Ideal for occasional troubleshooting, one-off setups, software fixes, and Wi-Fi issues without monthly commitments.</p>
+                </div>
+
+                <div class="price-card featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Managed Business Support</h3>
+                    <div class="price">Custom <small>/ per user / month</small></div>
+                    <p class="price-sub">Fixed monthly peace of mind</p>
+                    <p class="description">Includes proactive monitoring, automated backups, Microsoft 365 oversight, endpoint security, and priority helpdesk access.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta-business" aria-labelledby="cta-heading">
+        <div class="container">
+            <h2 id="cta-heading">Ready to Simplify Your Business Technology?</h2>
+            <p>Get in touch today for a free 15-minute chat about your current IT setup and how we can make it faster, safer, and easier to manage.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/447814009859" class="btn btn-primary" target="_blank" rel="noopener">💬 WhatsApp Me</a>
+                <a href="mailto:hello@welwyntech.co.uk" class="btn btn-secondary">✉️ Email hello@welwyntech.co.uk</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
