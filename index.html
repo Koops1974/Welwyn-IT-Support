@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -778,16 +778,77 @@
         footer {
             background: var(--primary);
             color: #94a3b8;
-            text-align: center;
-            padding: 30px 20px;
+            padding: 60px 0 30px;
             font-size: 0.9rem;
+            border-top: 1px solid #1e293b;
         }
 
-        footer strong {
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.2fr;
+            gap: 40px;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        .footer-col h4 {
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .footer-col p {
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            color: #94a3b8;
+            transition: color 0.2s;
+        }
+
+        .footer-col ul li a:hover {
+            color: #60a5fa;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: #cbd5e1;
+        }
+
+        .footer-contact-item a {
+            color: #93c5fd;
+        }
+
+        .footer-contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-bottom {
+            padding-top: 30px;
+            border-top: 1px solid #1e293b;
+            text-align: center;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        .footer-bottom strong {
             color: white;
         }
 
-        footer a {
+        .footer-bottom a {
             color: #93c5fd;
         }
 
@@ -805,7 +866,8 @@
             }
 
             .about-grid,
-            .business-grid {
+            .business-grid,
+            .footer-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -843,10 +905,6 @@
                 padding: 50px 0;
             }
 
-            .about-placeholder {
-                min-height: 220px;
-            }
-
             .email-contact {
                 width: auto;
                 justify-content: center;
@@ -854,6 +912,10 @@
 
             .email-address {
                 font-size: 0.9rem;
+            }
+
+            .footer-grid {
+                gap: 30px;
             }
         }
     </style>
@@ -880,8 +942,7 @@
     </div>
 </header>
 
-    <main>
-
+<main>
 
 <!-- HERO -->
 
@@ -1218,6 +1279,7 @@
                 <p>
                     We'll arrange a convenient time for remote or local support.
                 </p>
+
             </div>
 
             <div class="step">
@@ -1264,9 +1326,9 @@
                 </div>
 
                 <p class="price-description">
-                          Friendly face-to-face help at your home for computers,
-                          Wi-Fi, email and everyday technology.
-                          <br><strong>Then £15 per 15 minutes.</strong>
+                    Friendly face-to-face help at your home for computers,
+                    Wi-Fi, email and everyday technology.
+                    <br><strong>Then £15 per 15 minutes.</strong>
                 </p>
 
             </div>
@@ -1282,9 +1344,9 @@
                 </div>
 
                 <p class="price-description">
-        Quick and convenient help for problems that can be
-        diagnosed and resolved remotely.
-        <br><strong>Then £15 per 15 minutes.</strong>
+                    Quick and convenient help for problems that can be
+                    diagnosed and resolved remotely.
+                    <br><strong>Then £15 per 15 minutes.</strong>
                 </p>
 
             </div>
@@ -1310,393 +1372,85 @@
 
 
         <p class="pricing-note">
-               Specialist services such as new computer setup, Wi-Fi installations,
-                data transfers and malware cleanup are available from £50 depending
-                on the work required. I'll always explain what needs doing and agree
-                any additional cost with you first.
+            Specialist services such as new computer setup, Wi-Fi installations,
+            data transfers and malware cleanup are available from £50 depending on scope.
         </p>
 
     </div>
 
 </section>
-
-
-<!-- WHY CHOOSE ME -->
-
-<section class="section why">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>Why Choose Welwyn Tech?</h2>
-
-            <p>
-                Professional IT experience combined with a friendly, local approach.
-            </p>
-
-        </div>
-
-
-        <div class="why-grid">
-
-            <div class="why-card">
-
-                <h3>📍 Local & Personal</h3>
-
-                <p>
-                    Local face-to-face IT support for residents and small businesses
-                    in Welwyn, Digswell, Knebworth and surrounding areas.
-                </p>
-
-            </div>
-
-
-            <div class="why-card">
-
-                <h3>🛡️ Experienced & Trusted</h3>
-
-                <p>
-                    An experienced IT professional with a background supporting
-                    schools and organisations. DBS checked and used to working
-                    in environments where trust matters.
-                </p>
-
-            </div>
-
-
-            <div class="why-card">
-
-                <h3>💬 No Jargon</h3>
-
-                <p>
-                    I'll explain the problem in plain English and take the time
-                    to make sure you understand what's happening.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- LOCAL AREAS -->
-
-<section class="section local">
-
-    <div class="container local-box">
-
-        <div class="section-heading">
-
-            <h2>Local IT Support in Welwyn & Surrounding Areas</h2>
-
-            <p>
-                Providing home IT support across Welwyn Village and nearby
-                Hertfordshire communities.
-            </p>
-
-        </div>
-
-
-        <div class="areas">
-
-            <span class="area">Welwyn Village</span>
-            <span class="area">Digswell</span>
-            <span class="area">Knebworth</span>
-            <span class="area">Oaklands</span>
-            <span class="area">Welwyn Garden City</span>
-
-        </div>
-
-        <p style="margin-top:25px;color:#64748b;">
-            Home visits are currently available on <strong>Mondays and Fridays</strong>.
-            Remote support is available by arrangement.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section class="section">
-
-    <div class="container about-grid">
-
-        <div class="about-placeholder">
-
-<div style="width:260px; margin:0 auto; overflow:hidden; border-radius:12px;">
-    <img src="me.jpg" alt="Welwyn Tech IT Support" style="display:block; width:100%; height:auto;">
-</div>
-
-        </div>
-
-
-        <div class="about-text">
-
-            <h2>Professional IT Support in Welwyn</h2>
-
-            <p>
-                Technology can be frustrating, especially when something suddenly
-                stops working and you don't know where to start.
-            </p>
-
-            <p>
-                I'm an experienced IT professional with a background supporting
-                schools and small organisations. I'm used to helping teachers,
-                staff and other users with technology and, just as importantly,
-                explaining things clearly to people who may not be technically confident.
-            </p>
-
-            <p>
-                I'm <strong>DBS checked</strong> and take a patient, friendly approach.
-                There are no silly questions and no need to understand technical jargon.
-            </p>
-
-            <p>
-                I also have professional experience with <strong>Microsoft 365,
-                IT security and general technology support</strong>, so I can help
-                both home users and small businesses.
-            </p>
-
-            <div class="trust-badges">
-
-                <span class="trust-badge">✓ Experienced IT Professional</span>
-                <span class="trust-badge">✓ DBS Checked</span>
-                <span class="trust-badge">✓ Microsoft 365</span>
-                <span class="trust-badge">✓ Cyber Security Experience</span>
-                <span class="trust-badge">✓ No Jargon</span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- FAQ -->
-
-<section class="section faq">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h2>Frequently Asked Questions About IT Support</h2>
-
-        </div>
-
-
-        <div class="faq-list">
-
-            <details>
-                <summary>Do I need to know what's wrong before contacting you?</summary>
-                <p>
-                    No. Just tell me what is happening in your own words.
-                    I'll help work out what the problem is.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Do you provide home IT support in Welwyn?</summary>
-                <p>
-                    Yes. Home visits are available in Welwyn Village, Digswell,
-                    Knebworth and surrounding areas, currently on Mondays and Fridays.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Can you help with computer and Wi-Fi problems remotely?</summary>
-                <p>
-                    Yes. Many software, email and computer problems can be resolved
-                    remotely without needing a home visit.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Do you help small businesses with IT?</summary>
-                <p>
-                    Yes. I can provide occasional IT help for small businesses,
-                    including computers, Microsoft 365, email, Wi-Fi, security
-                    and general troubleshooting, without requiring a complicated
-                    support contract.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Do you help with Microsoft 365 and Outlook?</summary>
-                <p>
-                    Yes. I can help with Microsoft 365, Outlook, email setup,
-                    OneDrive, calendars, contacts and general account configuration.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Do you repair broken laptop screens or hardware?</summary>
-                <p>
-                    I specialise in software, configuration, troubleshooting and
-                    digital setup rather than physical hardware repairs or component
-                    replacement.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Will you explain what you're doing?</summary>
-                <p>
-                    Absolutely. I believe you should understand what has happened
-                    and what I'm doing to resolve it.
-                </p>
-            </details>
-
-
-            <details>
-                <summary>Do you help people who aren't very confident with technology?</summary>
-                <p>
-                    Yes. That's exactly who this service is designed for.
-                    There are no silly questions and no technical knowledge required.
-                </p>
-            </details>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- FINAL CTA -->
-
-<section class="cta">
-
-    <div class="container">
-
-        <h2>Got a tech problem?</h2>
-
-        <p>
-            Don't spend hours trying to work it out yourself.
-            Send me a message or email and tell me what's going wrong.
-        </p>
-
-        <div class="cta-buttons">
-
-            <a class="btn btn-primary"
-               href="https://wa.me/447814009859"
-               target="_blank"
-               rel="noopener">
-                💬 WhatsApp Me
-            </a>
-
-            <div class="email-contact">
-                <span>
-                    ✉️
-                    <span class="email-address">
-                        hello@welwyntech.co.uk
-                    </span>
-                </span>
-
-                <button class="copy-email"
-                        type="button"
-                        onclick="copyEmail(this)">
-                    Copy
-                </button>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- FOOTER -->
 
 </main>
 
-    <footer>
+<!-- FOOTER -->
 
-    <p>
-        <strong>Welwyn Tech</strong>
-    </p>
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            
+            <div class="footer-col">
+                <div class="logo" style="margin-bottom: 12px;">
+                    Welwyn <span>Tech</span>
+                </div>
+                <p>Patient, plain-English IT support and tech coaching for home users and small businesses across Welwyn and surrounding Hertfordshire areas.</p>
+            </div>
 
-    <p>
-        Friendly local IT support for homes and small businesses in Welwyn,
-        Digswell, Codicote and surrounding areas.
-    </p>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Computers & Laptops</a></li>
+                    <li><a href="#services">Wi-Fi & Networks</a></li>
+                    <li><a href="#services">Microsoft 365 & Email</a></li>
+                    <li><a href="#services">Phones & Tablets</a></li>
+                    <li><a href="#services">One-to-One Coaching</a></li>
+                </ul>
+            </div>
 
-    <p style="margin-top:10px;">
-        <a href="mailto:hello@welwyntech.co.uk">
-            hello@welwyntech.co.uk
-        </a>
-    </p>
+            <div class="footer-col">
+                <h4>Coverage Areas</h4>
+                <ul>
+                    <li>Welwyn Village</li>
+                    <li>Digswell</li>
+                    <li>Codicote</li>
+                    <li>Knebworth</li>
+                    <li>Welwyn Garden City</li>
+                </ul>
+            </div>
 
-    <p style="margin-top:10px;">
-        © 2026 Welwyn Tech. All rights reserved.
-    </p>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <div class="footer-contact-item">
+                    <span>✉️</span>
+                    <a href="mailto:hello@welwyntech.co.uk">hello@welwyntech.co.uk</a>
+                </div>
+                <div class="footer-contact-item">
+                    <span>📞</span>
+                    <a href="tel:+447814009859">+44 7814 009859</a>
+                </div>
+                <div class="footer-contact-item" style="margin-top: 10px;">
+                    <a class="header-button" href="https://wa.me/447814009859" target="_blank" rel="noopener" style="font-size: 0.85rem; padding: 6px 12px;">💬 WhatsApp Me</a>
+                </div>
+            </div>
 
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>Welwyn Tech</strong>. All rights reserved. | Local IT Support in Hertfordshire</p>
+        </div>
+    </div>
 </footer>
-
-
-<!-- COPY EMAIL SCRIPT -->
 
 <script>
 function copyEmail(button) {
-    const email = "hello@welwyntech.co.uk";
-
-    if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(email).then(function () {
-            showCopied(button);
-        }).catch(function () {
-            fallbackCopy(email, button);
-        });
-    } else {
-        fallbackCopy(email, button);
-    }
-}
-
-function fallbackCopy(email, button) {
-    const textArea = document.createElement("textarea");
-
-    textArea.value = email;
-    textArea.style.position = "fixed";
-    textArea.style.left = "-9999px";
-
-    document.body.appendChild(textArea);
-
-    textArea.focus();
-    textArea.select();
-
-    try {
-        document.execCommand("copy");
-        showCopied(button);
-    } catch (err) {
-        alert("Email address: " + email);
-    }
-
-    document.body.removeChild(textArea);
-}
-
-function showCopied(button) {
-    const originalText = button.textContent;
-
-    button.textContent = "Copied!";
-    button.classList.add("copied");
-
-    setTimeout(function () {
-        button.textContent = originalText;
-        button.classList.remove("copied");
-    }, 2000);
+    var email = "hello@welwyntech.co.uk";
+    navigator.clipboard.writeText(email).then(function() {
+        button.innerText = "Copied!";
+        button.classList.add("copied");
+        setTimeout(function() {
+            button.innerText = "Copy";
+            button.classList.remove("copied");
+        }, 2000);
+    });
 }
 </script>
 
