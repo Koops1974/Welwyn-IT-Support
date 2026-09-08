@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Home IT Support & Wi-Fi Setup Welwyn | Welwyn Tech</title>
+    <meta name="title" content="Home IT Support & Wi-Fi Setup Welwyn | Welwyn Tech">
+    <meta name="description" content="Friendly face-to-face home computer help in Welwyn, Digswell & Knebworth. Wi-Fi fixes, device setups, and patient tech tuition. Clear rates starting from £25.">
+    <link rel="canonical" href="https://www.welwyntech.co.uk/home-it-support.html">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.welwyntech.co.uk/home-it-support.html">
+    <meta property="og:title" content="Home IT Support & Wi-Fi Setup Welwyn | Welwyn Tech">
+    <meta property="og:description" content="Friendly, patient home IT support in Welwyn, Digswell, and Knebworth. Wi-Fi fixes, PC & Mac help, device setups, and patient tech coaching. Clear rates starting from £25.">
+    <meta property="og:image" content="https://www.welwyntech.co.uk/og-home-it.jpg">
+
+    <!-- Embedded CSS Styling (Matching Main Site Palette) -->
+    <style>
+        :root {
+            --primary-navy: #0f172a;
+            --primary-blue: #2563eb;
+            --primary-blue-hover: #1d4ed8;
+            --accent-cyan: #06b6d4;
+            --bg-light: #f8fafc;
+            --bg-card: #ffffff;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --success-green: #10b981;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-blue-hover);
+            border-color: var(--primary-blue-hover);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary-navy);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--primary-navy);
+            background-color: var(--bg-light);
+        }
+
+        .section {
+            padding: 4rem 0;
+        }
+
+        .section-heading {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .section-heading h2 {
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-heading p {
+            font-size: 1.125rem;
+            color: var(--text-muted);
+        }
+
+        /* HERO SECTION */
+        .hero-home {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 5rem 0 4rem 0;
+            text-align: center;
+        }
+
+        .hero-home .badge {
+            display: inline-block;
+            background-color: rgba(37, 99, 235, 0.2);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            padding: 0.35rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-home h1 {
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+            font-weight: 800;
+        }
+
+        .hero-home h1 span {
+            color: var(--accent-cyan);
+        }
+
+        .hero-subtext {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            max-width: 750px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero-ctas .btn-secondary {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .hero-ctas .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: #ffffff;
+        }
+
+        /* VALUE PROPOSITION */
+        .intro-home {
+            background-color: var(--bg-light);
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .intro-home .container {
+            max-width: 800px;
+        }
+
+        .intro-home h2 {
+            font-size: 1.75rem;
+            color: var(--primary-navy);
+            margin-bottom: 1rem;
+        }
+
+        .intro-home p {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+
+        /* SERVICES GRID */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .card .icon {
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .card h3 {
+            font-size: 1.35rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+
+        .card ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+        }
+
+        .card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-blue);
+            font-weight: bold;
+        }
+
+        /* WHY CHOOSE US */
+        .why-home {
+            background-color: var(--bg-light);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .why-card {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--primary-blue);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .why-card h3 {
+            font-size: 1.2rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.5rem;
+        }
+
+        .why-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* PRICING SECTION - Matches Homepage 3-Card Layout */
+        .pricing-home {
+            background-color: #ffffff;
+        }
+
+        .home-pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
+        .price-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2.25rem 1.75rem;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .price-card.featured {
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-md);
+        }
+
+        .popular-tag {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.25rem 0.85rem;
+            border-radius: 50px;
+            letter-spacing: 0.5px;
+        }
+
+        .price-card h3 {
+            font-size: 1.4rem;
+            color: var(--primary-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .price-card .price {
+            font-size: 2.75rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .price-card .price small {
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--text-muted);
+        }
+
+        .price-card .description {
+            color: var(--text-muted);
+            font-size: 0.925rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .price-card .increment-rate {
+            font-weight: 700;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            margin-top: auto;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* CALL TO ACTION */
+        .cta-home {
+            background: var(--primary-navy);
+            color: #ffffff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .cta-home h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-home p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons .btn-secondary {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .cta-buttons .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .hero-home h1 {
+                font-size: 2rem;
+            }
+            .section-heading h2 {
+                font-size: 1.75rem;
+            }
+            .section {
+                padding: 3rem 0;
+            }
+        }
+    </style>
+
+    <!-- JSON-LD Residential Service Schema with Exact Pricing Offers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Home Computer & Wi-Fi Support",
+      "provider": {
+        "@type": "ITSupport",
+        "@id": "https://www.welwyntech.co.uk/#organization",
+        "name": "Welwyn Tech",
+        "telephone": "+447814009859",
+        "email": "hello@welwyntech.co.uk",
+        "url": "https://www.welwyntech.co.uk/"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Welwyn" },
+        { "@type": "City", "name": "Welwyn Garden City" },
+        { "@type": "City", "name": "Digswell" },
+        { "@type": "City", "name": "Knebworth" },
+        { "@type": "City", "name": "Codicote" }
+      ],
+      "description": "Patient, friendly, and jargon-free home computer support, Wi-Fi mesh installation, remote help, and 1-on-1 tech lessons for residents in Welwyn.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential Rates",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Home IT Support" },
+            "price": "30.00",
+            "priceCurrency": "GBP"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Remote Support" },
+            "price": "25.00",
+            "priceCurrency": "GBP"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Tech Coaching" },
+            "price": "30.00",
+            "priceCurrency": "GBP"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero-home" aria-labelledby="hero-heading">
+        <div class="container">
+            <p class="badge">🏠 Local Home IT & Computer Help | Welwyn & Surrounding Villages</p>
+            <h1 id="hero-heading">
+                Friendly, Patient Home Computer Support<br>
+                <span>Without the Confusing Tech Jargon</span>
+            </h1>
+            <p class="hero-subtext">
+                Struggling with slow Wi-Fi, computer bugs, or setting up a new device? Get trustworthy, local assistance in Welwyn, Digswell, and Knebworth—either on-site at your home or via fast remote support.
+            </p>
+            <div class="hero-ctas">
+                <a href="https://wa.me/447814009859" class="btn btn-primary" target="_blank" rel="noopener">💬 WhatsApp Direct</a>
+                <a href="tel:+447814009859" class="btn btn-secondary">📞 Call 07814 009859</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUE PROPOSITION -->
+    <section class="section intro-home" aria-labelledby="intro-heading">
+        <div class="container">
+            <h2 id="intro-heading">Stress-Free Technology Support Right on Your Doorstep</h2>
+            <p>
+                Technology should make your life easier, not more frustrating. Whether you are working from home, trying to stream across dead zones in your house, or need help setting up an iPad, <strong>Welwyn Tech is here to help.</strong>
+            </p>
+            <p>
+                I offer clear explanations, honest advice, and transparent pricing with zero pressure. No robotic call centers—just friendly, local support from a neighbor you can rely on.
+            </p>
+        </div>
+    </section>
+
+    <!-- CORE SERVICES GRID -->
+    <section class="section services-home" id="services" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="services-heading">Home Tech Services in Welwyn</h2>
+                <p>Tailored IT assistance for home users, remote workers, and families.</p>
+            </div>
+
+            <div class="services-grid">
+                
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🏠</div>
+                    <h3>Home IT Support</h3>
+                    <p>Friendly face-to-face help at your home for laptops, desktop computers, Wi-Fi networks, and daily software issues.</p>
+                    <ul>
+                        <li>Computer tune-ups & virus removal</li>
+                        <li>Wi-Fi dead zone fixes & router setups</li>
+                        <li>Printer, scanner, & smart home setup</li>
+                        <li>New PC/Mac setup & data migration</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">💻</div>
+                    <h3>Remote Support</h3>
+                    <p>Quick and convenient help for technical issues that can be diagnosed and fixed online over a secure screen share.</p>
+                    <ul>
+                        <li>Email setup & Outlook sync issues</li>
+                        <li>Software installation & bug fixes</li>
+                        <li>Browser pop-up & scam cleanup</li>
+                        <li>Immediate remote diagnostic assistance</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🎓</div>
+                    <h3>Tech Coaching</h3>
+                    <p>One-to-one tuition tailored specifically to what you want to learn at a calm, patient, and comfortable pace.</p>
+                    <ul>
+                        <li>iPhone, iPad, & smartphone lessons</li>
+                        <li>Online safety, password, & scam protection</li>
+                        <li>Video calls (Zoom, WhatsApp, FaceTime)</li>
+                        <li>Custom written step-by-step guidance</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🔒</div>
+                    <h3>Home Data Security</h3>
+                    <p>Keep your personal records, photos, and family digital assets protected from unexpected hardware failure or scams.</p>
+                    <ul>
+                        <li>Cloud photo backups (iCloud, Google)</li>
+                        <li>Password management setup</li>
+                        <li>Phishing & email fraud protection</li>
+                        <li>External storage backup routines</li>
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section why-home" aria-labelledby="why-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="why-heading">Why Welwyn Residents Trust Welwyn Tech</h2>
+            </div>
+            <div class="why-grid">
+                
+                <div class="why-card">
+                    <h3>☕ Patient & Respectful</h3>
+                    <p>No question is ever too simple. I take the time to listen, explain fixes in plain English, and build your confidence.</p>
+                </div>
+
+                <div class="why-card">
+                    <h3>🏠 Local & Reliable</h3>
+                    <p>Based in Welwyn, providing trusted home visits and rapid remote help with genuine local accountability.</p>
+                </div>
+
+                <div class="why-card">
+                    <h3>💡 Clear Fixed Rates</h3>
+                    <p>Transparent rates matching our main homepage card exactly. No surprise call-out fees or hidden costs.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION - Exact Match to Homepage Rates & Copy -->
+    <section class="section pricing-home" id="pricing" aria-labelledby="pricing-heading">
+        <div class="container">
+            <div class="section-heading">
+                <h2 id="pricing-heading">Transparent Home Pricing</h2>
+                <p>Simple, clear rates with no hidden fees or contracts.</p>
+            </div>
+
+            <div class="home-pricing-grid">
+                
+                <!-- Card 1: Home IT Support -->
+                <div class="price-card featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <div>
+                        <h3>Home IT Support</h3>
+                        <div class="price">£30 <small>/ first 30 mins</small></div>
+                        <p class="description">Friendly face-to-face help at your home for computers, Wi-Fi, email, and everyday technology.</p>
+                    </div>
+                    <p class="increment-rate">Then £15 per 15 minutes.</p>
+                </div>
+
+                <!-- Card 2: Remote Support -->
+                <div class="price-card">
+                    <div>
+                        <h3>Remote Support</h3>
+                        <div class="price">£25 <small>/ first 30 mins</small></div>
+                        <p class="description">Quick and convenient help for problems that can be diagnosed and resolved remotely.</p>
+                    </div>
+                    <p class="increment-rate">Then £15 per 15 minutes.</p>
+                </div>
+
+                <!-- Card 3: Tech Coaching -->
+                <div class="price-card">
+                    <div>
+                        <h3>Tech Coaching</h3>
+                        <div class="price">£30 <small>/ first 30 mins</small></div>
+                        <p class="description">One-to-one tuition tailored to what you want to learn at your own pace.</p>
+                    </div>
+                    <p class="increment-rate">Then £15 per 15 minutes.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta-home" aria-labelledby="cta-heading">
+        <div class="container">
+            <h2 id="cta-heading">Need Help With Your Computer or Wi-Fi?</h2>
+            <p>Get in touch today for a quick, friendly chat about what you need. No pressure, no obligations.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/447814009859" class="btn btn-primary" target="_blank" rel="noopener">💬 Message on WhatsApp</a>
+                <a href="mailto:hello@welwyntech.co.uk" class="btn btn-secondary">✉️ Email hello@welwyntech.co.uk</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
