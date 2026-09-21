@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.welwyntech.co.uk/favicon.png">
+<link rel="icon" type="image/x-icon" href="https://www.welwyntech.co.uk/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.welwyntech.co.uk/favicon.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Get in Touch | Welwyn Tech</title>
+
+<meta name="description" content="Get in touch with Welwyn Tech for friendly, jargon-free IT support in Welwyn, Knebworth and surrounding areas. Send a message, WhatsApp or email today.">
+
+<meta name="keywords" content="contact Welwyn Tech, get in touch IT support Welwyn, computer help Welwyn, IT support Knebworth, WhatsApp IT support Welwyn">
+
+<meta name="author" content="Welwyn Tech">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://www.welwyntech.co.uk/get-in-touch.html">
+
+<!-- OPEN GRAPH / SOCIAL SHARING -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.welwyntech.co.uk/get-in-touch.html">
+<meta property="og:title" content="Get in Touch | Welwyn Tech">
+<meta property="og:description" content="Send Welwyn Tech a message for friendly, jargon-free home and small business IT support.">
+<meta property="og:image" content="https://www.welwyntech.co.uk/me.jpg">
+
+<!-- LOCAL BUSINESS SEO SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Welwyn Tech",
+  "url": "https://www.welwyntech.co.uk/get-in-touch.html",
+  "image": "https://www.welwyntech.co.uk/me.jpg",
+  "description": "Friendly, jargon-free local IT support and tech coaching for homes and small businesses in Welwyn, Knebworth and surrounding Hertfordshire areas.",
+  "email": "hello@welwyntech.co.uk",
+  "telephone": "+447814009859",
+  "priceRange": "£25-£75",
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Knebworth"
+    },
+    {
+      "@type": "City",
+      "name": "Welwyn"
+    },
+    {
+      "@type": "Place",
+      "name": "Digswell"
+    },
+    {
+      "@type": "Place",
+      "name": "Codicote"
+    },
+    {
+      "@type": "Place",
+      "name": "Oaklands"
+    },
+    {
+      "@type": "City",
+      "name": "Welwyn Garden City"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Hertfordshire"
+    }
+  ]
+}
+</script>
+
+<style>
+
+    :root {
+        --primary: #0f172a;
+        --primary-light: #1e293b;
+        --accent: #2563eb;
+        --accent-dark: #1d4ed8;
+        --accent-light: #eff6ff;
+        --text: #334155;
+        --muted: #64748b;
+        --bg: #f8fafc;
+        --white: #ffffff;
+        --border: #e2e8f0;
+        --success: #16a34a;
+        --danger: #dc2626;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    /* HEADER */
+
+    header {
+        background: var(--primary);
+        color: white;
+        padding: 18px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 1.35rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .logo span {
+        color: #60a5fa;
+    }
+
+    .header-button {
+        background: var(--accent);
+        color: white;
+        padding: 10px 18px;
+        border-radius: 7px;
+        font-weight: 700;
+        transition: 0.2s;
+    }
+
+    .header-button:hover {
+        background: var(--accent-dark);
+    }
+
+    /* HERO */
+
+    .hero {
+        background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,41,59,0.94));
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .badge {
+        display: inline-block;
+        background: rgba(37,99,235,0.18);
+        border: 1px solid rgba(96,165,250,0.35);
+        color: #93c5fd;
+        padding: 7px 15px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.4rem, 6vw, 3.6rem);
+        line-height: 1.1;
+        margin-bottom: 22px;
+        letter-spacing: -1px;
+    }
+
+    .hero h1 span {
+        color: #60a5fa;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+        color: #cbd5e1;
+    }
+
+    /* CONTACT */
+
+    .contact {
+        background: white;
+        padding: 70px 0;
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1.25fr 1fr;
+        gap: 50px;
+        align-items: start;
+    }
+
+    .section-heading h2 {
+        color: var(--primary);
+        font-size: 2.1rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .section-heading p {
+        color: var(--muted);
+        font-size: 1.05rem;
+    }
+
+    .contact-heading {
+        margin-bottom: 30px;
+    }
+
+    .form-card {
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 32px;
+        box-shadow: 0 5px 18px rgba(15,23,42,0.05);
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 8px;
+        font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 1rem;
+        font-family: inherit;
+        background: var(--bg);
+        color: var(--text);
+        transition: 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+        background: white;
+    }
+
+    .form-group input.invalid,
+    .form-group select.invalid,
+    .form-group textarea.invalid {
+        border-color: var(--danger);
+        box-shadow: 0 0 0 3px rgba(220,38,38,0.12);
+    }
+
+    .form-group textarea {
+        min-height: 150px;
+        resize: vertical;
+    }
+
+    .form-group small {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 0.85rem;
+    }
+
+    .submit-button {
+        background: var(--accent);
+        color: white;
+        padding: 14px 28px;
+        border: none;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 1.05rem;
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .submit-button:hover {
+        background: var(--accent-dark);
+        transform: translateY(-1px);
+    }
+
+    .submit-button:disabled {
+        background: #93c5fd;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .form-status {
+        display: none;
+        margin-top: 20px;
+        padding: 14px 18px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 0.95rem;
+    }
+
+    .form-status.success {
+        display: block;
+        background: #f0fdf4;
+        border: 1px solid #bbf7d0;
+        color: #166534;
+    }
+
+    .form-status.error {
+        display: block;
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        color: #991b1b;
+    }
+
+    /* ALTERNATIVES */
+
+    .contact-card {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 28px;
+        margin-bottom: 20px;
+    }
+
+    .contact-card h3 {
+        color: var(--primary);
+        font-size: 1.15rem;
+        margin-bottom: 10px;
+    }
+
+    .contact-card p {
+        color: var(--muted);
+        font-size: 0.95rem;
+    }
+
+    .contact-link {
+        display: inline-block;
+        margin-top: 12px;
+        background: var(--accent);
+        color: white;
+        padding: 10px 18px;
+        border-radius: 7px;
+        font-weight: 700;
+        font-size: 0.95rem;
+        transition: 0.2s;
+    }
+
+    .contact-link:hover {
+        background: var(--accent-dark);
+    }
+
+    .contact-link.email {
+        background: var(--primary);
+    }
+
+    .contact-link.email:hover {
+        background: var(--primary-light);
+    }
+
+    .sidebar-note {
+        background: var(--accent-light);
+        border: 1px solid #bfdbfe;
+        border-radius: 14px;
+        padding: 24px;
+        font-size: 0.95rem;
+        color: #1e40af;
+    }
+
+    .sidebar-note strong {
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background: var(--primary);
+        color: #94a3b8;
+        padding: 50px 20px 30px;
+        font-size: 0.9rem;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-brand h3 {
+        color: white;
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+        line-height: 1.6;
+    }
+
+    .footer-col h4 {
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-col ul {
+        list-style: none;
+    }
+
+    .footer-col li {
+        margin-bottom: 8px;
+    }
+
+    .footer-col a {
+        color: #93c5fd;
+        transition: 0.2s;
+    }
+
+    .footer-col a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #1e293b;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    /* MOBILE RESPONSIVENESS */
+
+    @media (max-width: 850px) {
+        .contact-grid,
+        .footer-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        header {
+            position: static;
+        }
+
+        .header-inner {
+            flex-direction: column;
+        }
+
+        .hero {
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.45rem;
+        }
+
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <div class="container header-inner">
+
+        <a href="https://www.welwyntech.co.uk/" class="logo">
+            Welwyn <span>Tech</span>
+        </a>
+
+        <a class="header-button"
+           href="https://wa.me/447814009859"
+           target="_blank"
+           rel="noopener">
+            💬 WhatsApp Me
+        </a>
+
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            📍 Local IT Support in Welwyn, Knebworth & Surrounding Areas
+        </div>
+
+        <h1>
+            Get in Touch<br>
+            <span>Let's Sort It Out</span>
+        </h1>
+
+        <p>
+            Tell me what's going wrong in your own words. No technical
+            knowledge needed and no silly questions. I'll get back to you
+            as soon as I can.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+    <div class="container">
+
+        <div class="contact-heading section-heading">
+
+            <h2>Send Me a Message</h2>
+
+            <p>
+                Fill in the form below and I'll reply by email, usually within one
+                working day. Prefer WhatsApp? Use the quick links on this page.
+            </p>
+
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="form-card">
+
+                <form id="contact-form" action="https://formspree.io/f/xaenowan" method="POST">
+
+                    <input type="hidden" name="_subject" value="New enquiry from welwyntech.co.uk">
+                    <input type="hidden" name="_gotcha" style="display:none!important;" tabindex="-1" autocomplete="off">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Jane Smith" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number (optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. 07812 345678">
+                            <small>Only used if it's easier to call you back.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="help">What do you need help with? *</label>
+                            <select id="help" name="help" required>
+                                <option value="" selected disabled>Please choose…</option>
+                                <option value="computer">Computer or laptop</option>
+                                <option value="wifi">Wi-Fi or home network</option>
+                                <option value="email">Email or Microsoft 365</option>
+                                <option value="phones">Phone or tablet</option>
+                                <option value="safety">Online safety or security</option>
+                                <option value="coaching">One-to-one tech coaching</option>
+                                <option value="business">Small business IT help</option>
+                                <option value="other">Something else</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell me what's happening *</label>
+                        <textarea id="message" name="message" placeholder="Don't worry about technical terms — just explain it in your own words, e.g. 'My computer keeps saying it's slow and the internet drops out when it rains'." required></textarea>
+                    </div>
+
+                    <button class="submit-button" type="submit" id="submit-button">
+                        Send Message
+                    </button>
+
+                    <div class="form-status" id="form-status" role="status"></div>
+
+                </form>
+
+            </div>
+
+            <aside>
+
+                <div class="contact-card">
+
+                    <h3>💬 WhatsApp</h3>
+
+                    <p>
+                        The quickest way to reach me. Send a message and I'll
+                        reply as soon as I can.
+                    </p>
+
+                    <a class="contact-link"
+                       href="https://wa.me/447814009859"
+                       target="_blank"
+                       rel="noopener">
+                        Message Me on WhatsApp
+                    </a>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <h3>✉️ Email</h3>
+
+                    <p>
+                        Prefer to write things down? Email me with the details
+                        and I'll get back to you within one working day.
+                    </p>
+
+                    <a class="contact-link email"
+                       href="mailto:hello@welwyntech.co.uk">
+                        hello@welwyntech.co.uk
+                    </a>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <h3>📍 Home Visits</h3>
+
+                    <p>
+                        Home visits are available on <strong>Mondays and Fridays</strong>
+                        in Welwyn, Knebworth and surrounding areas.
+                        Remote support is available by arrangement.
+                    </p>
+
+                </div>
+
+                <div class="sidebar-note">
+
+                    <strong>What happens next?</strong>
+
+                    I'll read your message and reply to arrange a convenient
+                    time to help. There's no obligation and no complicated
+                    contracts — just friendly, straightforward support.
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <h3>Welwyn Tech</h3>
+
+                <p>
+                    Friendly, jargon-free local IT support and technology
+                    coaching for homes and small businesses in Welwyn,
+                    Knebworth, Digswell, Codicote and surrounding
+                    Hertfordshire communities.
+                </p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Services</h4>
+
+                <ul>
+                    <li><a href="https://www.welwyntech.co.uk/#services">Computer & Laptop Support</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/#services">Wi-Fi & Network Setup</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/#services">Microsoft 365 & Email</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/#services">Phone & Tablet Support</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/#services">Online Safety</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/#services">One-to-One Tech Coaching</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Contact & Areas</h4>
+
+                <ul>
+                    <li><a href="get-in-touch.html">Get in Touch</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/">Welwyn Village</a></li>
+                    <li><a href="https://www.welwyntech.co.uk/it-support-knebworth.html">Knebworth</a></li>
+                    <li>Digswell</li>
+                    <li>Codicote</li>
+                    <li>Oaklands</li>
+                    <li>Welwyn Garden City</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p style="margin-bottom:0.5rem;font-size:0.95rem;">
+                <a href="https://wa.me/447814009859"
+                   target="_blank"
+                   rel="noopener"
+                   style="color:#06b6d4;text-decoration:none;font-weight:600;">
+                    💬 Chat on WhatsApp
+                </a>
+            </p>
+
+            <p style="margin-top:10px;font-size:0.85rem;">
+                © 2026 Welwyn Tech. All rights reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- FORM SUBMISSION SCRIPT -->
+
+<script>
+
+var form = document.getElementById("contact-form");
+var submitButton = document.getElementById("submit-button");
+var statusBox = document.getElementById("form-status");
+
+form.addEventListener("submit", function (event) {
+
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Sending…";
+    hideStatus();
+
+    var data = new FormData(form);
+
+    fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: { "Accept": "application/json" }
+    }).then(function (response) {
+
+        if (response.ok) {
+            form.reset();
+            showStatus("success",
+                "Thanks for getting in touch! Your message has been sent. I'll reply to you as soon as I can.");
+        } else {
+            showStatus("error",
+                "Something went wrong sending your message. Please try again, or email me directly at hello@welwyntech.co.uk.");
+        }
+
+    }).catch(function () {
+
+        showStatus("error",
+            "Something went wrong sending your message. Please check your internet connection and try again.");
+
+    }).then(function () {
+
+        submitButton.disabled = false;
+        submitButton.textContent = "Send Message";
+
+    });
+
+});
+
+function showStatus(type, message) {
+
+    statusBox.className = "form-status " + type;
+    statusBox.textContent = message;
+
+}
+
+function hideStatus() {
+
+    statusBox.className = "form-status";
+    statusBox.textContent = "";
+
+}
+
+</script>
+
+</body>
+</html>
