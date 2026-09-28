@@ -21,7 +21,7 @@
 
     <title>IT Support Welwyn | Friendly Home & Small Business Computer Help</title>
 
-    <meta name="description" content="Friendly, jargon-free IT support in Welwyn, Digswell, Codicote, Knebworth & surrounding areas. On-site & remote help with Wi-Fi, PCs, Mac, email & Microsoft 365.">
+    <meta name="description" content="Friendly laptop and computer help in Welwyn, Digswell, Codicote, Knebworth & surrounding areas. On-site & remote help with PCs, Wi-Fi, email, Microsoft 365 & more.">
 
     <meta name="keywords" content="IT support Welwyn, computer help Welwyn, IT support Digswell, computer support Codicote, Wi-Fi help Welwyn, small business IT support Welwyn, Microsoft 365 support Welwyn, computer technician Welwyn">
 
@@ -327,6 +327,72 @@
         .section-heading p {
             color: var(--muted);
             font-size: 1.05rem;
+        }
+
+        /* LAPTOP & COMPUTER HELP */
+        .laptop-help {
+            background: var(--bg);
+        }
+
+        .laptop-help-title {
+            color: var(--primary);
+            font-size: 2.1rem;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .laptop-help-intro {
+            color: var(--muted);
+            font-size: 1.1rem;
+            max-width: 780px;
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+
+        .laptop-help-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px 32px;
+            max-width: 780px;
+            margin: 0 auto 30px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px 32px;
+            box-shadow: 0 5px 18px rgba(15,23,42,0.05);
+        }
+
+        .laptop-help-list li {
+            color: var(--text);
+            margin: 6px 0;
+            font-size: 1rem;
+        }
+
+        .laptop-help-list li::before {
+            content: "✓";
+            color: var(--success);
+            font-weight: 800;
+            margin-right: 8px;
+        }
+
+        .laptop-help-outro {
+            color: var(--muted);
+            font-size: 1rem;
+            max-width: 780px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .laptop-help-outro a {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .laptop-help-outro a:hover {
+            color: var(--accent-dark);
+            text-decoration: underline;
         }
 
         /* ABOUT */
@@ -802,6 +868,11 @@
                 padding: 20px 0 55px 0;
             }
 
+            .laptop-help-list {
+                grid-template-columns: 1fr;
+                padding: 22px 24px;
+            }
+
             .email-contact {
                 width: auto;
                 justify-content: center;
@@ -889,6 +960,42 @@
             or you'd simply like someone to show you how something works,
             I provide friendly local IT support designed around you.
         </p>
+    </div>
+</section>
+
+<!-- LAPTOP & COMPUTER HELP -->
+<section class="section laptop-help">
+    <div class="container">
+
+        <h2 class="laptop-help-title">Laptop & Computer Help in Welwyn</h2>
+
+        <p class="laptop-help-intro">
+            Laptop running slowly? Windows playing up? Can't connect your printer?
+            Need help setting up a new computer? I provide friendly, jargon-free
+            laptop and computer help for people in Welwyn, Digswell, Knebworth
+            and surrounding areas.
+        </p>
+
+        <ul class="laptop-help-list">
+            <li>Slow laptops and computers</li>
+            <li>Windows problems</li>
+            <li>Laptop and computer setup</li>
+            <li>Software and updates</li>
+            <li>Wi-Fi and internet problems</li>
+            <li>Printers and peripherals</li>
+            <li>Email and Microsoft 365</li>
+            <li>Moving to a new laptop or computer</li>
+            <li>General computer problems</li>
+        </ul>
+
+        <p class="laptop-help-outro">
+            You don't need to know what's wrong before you get in touch — just
+            explain the problem and I'll help you work out the next step.
+            Prefer to learn a little more first? See what's covered on my
+            <a href="https://www.welwyntech.co.uk/home-it-support.html">home IT support</a>
+            page.
+        </p>
+
     </div>
 </section>
 
