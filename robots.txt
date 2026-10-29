@@ -2,6 +2,9 @@ User-agent: *
 Allow: /
 
 # Explicitly allow major AI search engine crawlers
+User-agent: Applebot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
