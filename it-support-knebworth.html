@@ -37,6 +37,7 @@
   "name": "Welwyn Tech",
   "url": "https://www.welwyntech.co.uk/it-support-knebworth.html",
   "image": "https://www.welwyntech.co.uk/me.jpg",
+  "logo": "https://www.welwyntech.co.uk/logo.png",
   "description": "Friendly, local IT support and tech coaching for homes and small businesses in Knebworth and surrounding Hertfordshire areas.",
   "email": "hello@welwyntech.co.uk",
   "telephone": "+447814009859",
@@ -144,9 +145,19 @@
     }
 
     .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
         font-size: 1.35rem;
         font-weight: 800;
         color: white;
+    }
+
+    .logo img {
+        width: 48px;
+        height: 48px;
+        display: block;
+        flex: 0 0 auto;
     }
 
     .logo span {
@@ -786,6 +797,7 @@
 
 ```
     <a href="https://www.welwyntech.co.uk/" class="logo">
+        <img src="logo.png" alt="" width="48" height="48">
         Welwyn <span>Tech</span>
     </a>
 
