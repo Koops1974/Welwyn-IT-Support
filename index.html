@@ -86,7 +86,12 @@
         "Microsoft 365 Support",
         "Small Business IT Support",
         "Tech Coaching"
-      ]
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "3"
+      }
     }
     </script>
 
@@ -509,6 +514,58 @@
             stroke-width: 1.8;
             stroke-linecap: round;
             stroke-linejoin: round;
+        }
+
+        /* TESTIMONIALS */
+
+        .testimonials {
+            background: var(--bg);
+        }
+
+        .testi-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .testi-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 5px 18px rgba(15,23,42,0.05);
+        }
+
+        .stars {
+            color: #f59e0b;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .testi-card blockquote {
+            font-size: 1rem;
+            color: var(--text);
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .testi-card cite {
+            font-style: normal;
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 0.92rem;
+        }
+
+        .testi-card cite small {
+            display: block;
+            font-weight: 500;
+            color: var(--muted);
+        }
+
+        @media (max-width: 850px) {
+            .testi-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
 
@@ -1371,7 +1428,8 @@
         <div class="areas">
             <span class="area">Welwyn Village</span>
             <span class="area">Digswell</span>
-            <span class="area">Knebworth</span>
+            <a class="area" href="https://welwyntech.co.uk/it-support-codicote.html">Codicote</a>
+            <a class="area" href="https://welwyntech.co.uk/it-support-knebworth.html">Knebworth</a>
             <span class="area">Oaklands</span>
             <a class="area" href="https://welwyntech.co.uk/it-support-welwyn-garden-city.html">Welwyn Garden City</a>
         </div>
@@ -1380,6 +1438,51 @@
             Home visits are currently available on <strong>Mondays and Fridays</strong>.
             Remote support is available by arrangement.
         </p>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+    <div class="container">
+        <div class="section-heading">
+            <h2>What Local Customers Say</h2>
+            <p>Friendly, patient help that gets technology working again.</p>
+        </div>
+
+        <div class="testi-grid">
+            <div class="testi-card">
+                <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>
+                    "My laptop had been getting slower for months. It came back like new inside an hour, and he explained everything without making me feel silly."
+                </blockquote>
+                <cite>
+                    Sarah T.
+                    <small>Digswell</small>
+                </cite>
+            </div>
+
+            <div class="testi-card">
+                <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>
+                    "We'd been battling our Wi-Fi for ages. Sorted in one visit and the printer finally works too. Friendly, quick and great value."
+                </blockquote>
+                <cite>
+                    James &amp; Claire
+                    <small>Welwyn Village</small>
+                </cite>
+            </div>
+
+            <div class="testi-card">
+                <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>
+                    "Set up our new laptop and moved everything across from the old one. Nothing was too much trouble and no jargon at all."
+                </blockquote>
+                <cite>
+                    Mrs Patel
+                    <small>Welwyn Garden City</small>
+                </cite>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -1398,7 +1501,7 @@
 
             <details>
                 <summary>Do you provide home IT support in Welwyn?</summary>
-                <p>Yes. Home visits are available in Welwyn Village, Digswell, Knebworth and surrounding areas, currently on Mondays and Fridays.</p>
+                <p>Yes. Home visits are available in Welwyn Village, Digswell, Codicote, Knebworth and surrounding areas, currently on Mondays and Fridays.</p>
             </details>
 
             <details>
@@ -1483,12 +1586,12 @@
                 <h4>Services</h4>
                 <ul>
                     <li><a href="laptop-help-welwyn.html">Laptop Help Welwyn</a></li>
-                    <li><a href="#services">Computer & Laptop Repairs</a></li>
-                    <li><a href="#services">Wi-Fi & Network Setup</a></li>
+                    <li><a href="laptop-help-welwyn.html">Computer & Laptop Help</a></li>
+                    <li><a href="home-it-support.html">Wi-Fi & Network Setup</a></li>
                     <li><a href="https://welwyntech.co.uk/small-business-it-support.html">Microsoft 365 & Email</a></li>
                     <li><a href="https://welwyntech.co.uk/home-it-support.html">Phone & Tablet Support</a></li>
-                    <li><a href="#services">Cyber Security & Online Safety</a></li>
-                    <li><a href="#services">One-to-One Tech Coaching</a></li>
+                    <li><a href="https://welwyntech.co.uk/small-business-it-support.html">Cyber Security & Online Safety</a></li>
+                    <li><a href="home-it-support.html">One-to-One Tech Coaching</a></li>
                 </ul>
             </div>
 
@@ -1497,10 +1600,20 @@
                 <ul>
                     <li>Welwyn Village</li>
                     <li>Digswell</li>
-                    <li>Codicote</li>
-                    <li><a href="https://welwyntech.co.uk/it-support-knebworth">Knebworth</a></li>
+                    <li><a href="https://welwyntech.co.uk/it-support-codicote.html">Codicote</a></li>
+                    <li><a href="https://welwyntech.co.uk/it-support-knebworth.html">Knebworth</a></li>
                     <li>Oaklands</li>
                     <li><a href="https://welwyntech.co.uk/it-support-welwyn-garden-city.html">Welwyn Garden City</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Business Details</h4>
+                <ul>
+                    <li>Serving Welwyn &amp; nearby Hertfordshire</li>
+                    <li>Fully insured &middot; DBS checked</li>
+                    <li><a href="https://www.google.com/search?q=Welwyn+Tech+welwyntech.co.uk" target="_blank" rel="noopener">Find us on Google Maps</a></li>
+                    <li>Mon &amp; Fri home visits, remote by arrangement</li>
                 </ul>
             </div>
         </div>
