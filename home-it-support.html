@@ -212,9 +212,25 @@
         }
 
         .card .icon {
-            font-size: 2.25rem;
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border: 1px solid #bfdbfe;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-bottom: 1rem;
-            display: inline-block;
+        }
+
+        .card .icon svg {
+            width: 26px;
+            height: 26px;
+            stroke: var(--primary-blue);
+            fill: none;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
         }
 
         .card h3 {
@@ -501,7 +517,7 @@
             <div class="services-grid">
                 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">💻</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></div>
                     <h3>Computer & Laptop Repairs</h3>
                     <p>Speed up sluggish systems, fix start-up crashes, replace broken components, and restore smooth performance to Windows PCs and Macs.</p>
                     <ul>
@@ -516,7 +532,7 @@
                 </article>
 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">📶</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9.5a15 15 0 0 1 19 0"/><path d="M5.5 13a10.5 10.5 0 0 1 13 0"/><path d="M8.5 16.3a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor" stroke="none"/></svg></div>
                     <h3>Home Wi-Fi & Broadband Solutions</h3>
                     <p>Eliminate annoying Wi-Fi dead zones, fix constant disconnection issues, and extend fast internet coverage to every room and garden office.</p>
                     <ul>
@@ -528,7 +544,7 @@
                 </article>
 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">🎓</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2.5 9 12 14l9.5-5L12 4z"/><path d="M6 11.5V16c0 1.2 2.7 2.8 6 2.8s6-1.6 6-2.8v-4.5"/><path d="M21.5 9v5"/></svg></div>
                     <h3>1-on-1 Tech Coaching & Tuition</h3>
                     <p>Tailored, step-by-step guidance designed to build your digital confidence at a comfortable pace with written notes provided.</p>
                     <ul>
