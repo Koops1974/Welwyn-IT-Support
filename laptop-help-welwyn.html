@@ -420,15 +420,25 @@
     }
 
     .icon {
-        width: 48px;
-        height: 48px;
-        border-radius: 10px;
-        background: var(--accent-light);
+        width: 52px;
+        height: 52px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #eff6ff, #dbeafe);
+        border: 1px solid #bfdbfe;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
         margin-bottom: 18px;
+    }
+
+    .icon svg {
+        width: 26px;
+        height: 26px;
+        stroke: var(--accent);
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
     }
 
     .card h3 {
@@ -896,7 +906,7 @@
         <div class="services-grid">
 
             <div class="card">
-                <div class="icon">&#128007;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 17.5a9 9 0 1 1 15 0"/><path d="m12 14 3.5-4.5"/></svg></div>
                 <h3>Slow Laptop Fixes</h3>
                 <p>
                     Help when your laptop takes forever to start up or
@@ -912,7 +922,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">&#128373;&#65039;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="1"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="1"/><rect x="3.5" y="13" width="7.5" height="7.5" rx="1"/><rect x="13" y="13" width="7.5" height="7.5" rx="1"/></svg></div>
                 <h3>Won't Start &amp; Windows Errors</h3>
                 <p>
                     Calm diagnosis when your laptop simply refuses to cooperate.
@@ -927,7 +937,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">&#128274;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="m9 11.5 2 2 4-4"/></svg></div>
                 <h3>Viruses, Malware &amp; Pop-ups</h3>
                 <p>
                     Clean-up and protection when your laptop isn't behaving
@@ -943,7 +953,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">&#128190;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="11" rx="1.5"/><path d="M2 19h20"/><path d="M12 6.5v6M9 9.5h6"/></svg></div>
                 <h3>New Laptop Setup</h3>
                 <p>
                     Get your new laptop ready to use properly, without the
@@ -959,7 +969,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">&#128260;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13M13.5 4.5 17 8l-3.5 3.5"/><path d="M20 16H7M10.5 12.5 7 16l3.5 3.5"/></svg></div>
                 <h3>Data Transfer &amp; Backups</h3>
                 <p>
                     Move your digital life to a new laptop safely.
@@ -974,7 +984,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">&#128246;</div>
+                <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.6 3.8 9S14.5 18.5 12 21c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3z"/></svg></div>
                 <h3>Wi-Fi &amp; Internet Help</h3>
                 <p>
                     When your laptop can't stay connected to the internet.
