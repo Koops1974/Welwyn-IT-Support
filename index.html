@@ -479,15 +479,25 @@
         }
 
         .icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 10px;
-            background: var(--accent-light);
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border: 1px solid #bfdbfe;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
             margin-bottom: 18px;
+        }
+
+        .icon svg {
+            width: 26px;
+            height: 26px;
+            stroke: var(--accent);
+            fill: none;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
         }
 
         .card h3 {
@@ -1077,7 +1087,7 @@
 
         <div class="services-grid">
             <div class="card">
-                <div class="icon">💻</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg></div>
                 <h3>Computers & Laptops</h3>
                 <p>Friendly laptop help in Welwyn when your PC or laptop isn't behaving as it should.</p>
                 <ul>
@@ -1093,7 +1103,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">📶</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9.5a15 15 0 0 1 19 0"/><path d="M5.5 13a10.5 10.5 0 0 1 13 0"/><path d="M8.5 16.3a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor" stroke="none"/></svg></div>
                 <h3>Wi-Fi & Home Networks</h3>
                 <p>Get your home network working reliably throughout the house.</p>
                 <ul>
@@ -1106,7 +1116,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">📧</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
                 <h3>Email & Microsoft 365</h3>
                 <p>Help getting your email and online services working properly.</p>
                 <ul>
@@ -1119,7 +1129,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">📱</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></div>
                 <h3>Phones & Tablets</h3>
                 <p>Make the most of your phone or tablet without the frustration.</p>
                 <ul>
@@ -1132,7 +1142,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">🔐</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="m9 11.5 2 2 4-4"/></svg></div>
                 <h3>Online Safety</h3>
                 <p>Practical help keeping your accounts and devices safer online.</p>
                 <ul>
@@ -1145,7 +1155,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">👨‍🏫</div>
+                <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2.5 9 12 14l9.5-5L12 4z"/><path d="M6 11.5V16c0 1.2 2.7 2.8 6 2.8s6-1.6 6-2.8v-4.5"/><path d="M21.5 9v5"/></svg></div>
                 <h3>One-to-One Tech Coaching</h3>
                 <p>Patient, personal help so you can become more confident with technology.</p>
                 <ul>
