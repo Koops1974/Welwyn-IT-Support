@@ -212,9 +212,25 @@
         }
 
         .card .icon {
-            font-size: 2.25rem;
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border: 1px solid #bfdbfe;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-bottom: 1rem;
-            display: inline-block;
+        }
+
+        .card .icon svg {
+            width: 26px;
+            height: 26px;
+            stroke: var(--primary-blue);
+            fill: none;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
         }
 
         .card h3 {
@@ -507,7 +523,7 @@
             <div class="services-grid">
                 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">🖥️</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M9 20h6M12 16v4"/></svg></div>
                     <h3>Computer & Device Provisioning</h3>
                     <p>Complete setup, configuration, and maintenance for business laptops, desktop workstations, and mobile staff hardware.</p>
                     <ul>
@@ -519,7 +535,7 @@
                 </article>
 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">☁️</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4.5 4.5 0 1 1 .55-8.965 6 6 0 0 1 11.4 2.179A3.5 3.5 0 0 1 18.5 18z"/></svg></div>
                     <h3>Microsoft 365 & Cloud Admin</h3>
                     <p>Streamlined cloud administration to keep your team connected, synchronized, and working collaboratively anywhere.</p>
                     <ul>
@@ -531,7 +547,7 @@
                 </article>
 
                 <article class="card">
-                    <div class="icon" aria-hidden="true">🔒</div>
+                    <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="m9 11.5 2 2 4-4"/></svg></div>
                     <h3>Network & Cyber Security</h3>
                     <p>Proactive security measures and disaster recovery solutions to protect critical business assets and client records.</p>
                     <ul>
