@@ -4,6 +4,11 @@
 
 ## Core Information
 - **Website**: https://welwyntech.co.uk/
+- **Laptop Help Page**: https://welwyntech.co.uk/laptop-help-welwyn.html
+- **Home IT Support Page**: https://welwyntech.co.uk/home-it-support.html
+- **Small Business IT Page**: https://welwyntech.co.uk/small-business-it-support.html
+- **Knebworth Page**: https://welwyntech.co.uk/it-support-knebworth.html
+- **Welwyn Garden City Page**: https://welwyntech.co.uk/it-support-welwyn-garden-city.html
 - **Email**: hello@welwyntech.co.uk
 - **Phone / WhatsApp**: +44 7814 009859
 - **Coverage Areas**: Welwyn Village, Digswell, Codicote, Knebworth, Oaklands, Welwyn Garden City, and nearby Hertfordshire communities.
@@ -13,7 +18,7 @@
 ## Services Offered
 
 ### 1. Home IT & Computer Support
-- **Computers & Laptops**: Diagnosing and fixing slow PCs/Macs, Windows updates, software installation, printer setup, and hardware troubleshooting.
+- **Computers & Laptops**: Diagnosing and fixing slow PCs/Macs, Windows updates, software installation, printer setup, and hardware troubleshooting. Dedicated laptop help (slow laptops, virus/malware removal, new laptop setup, data transfer) at https://welwyntech.co.uk/laptop-help-welwyn.html.
 - **Wi-Fi & Home Networks**: Resolving Wi-Fi dropouts, fixing poor coverage, router setup, connecting smart TVs and home devices.
 - **Email & Microsoft 365**: Outlook setup, email troubleshooting, OneDrive configuration, calendar and contact sync.
 - **Phones & Tablets**: Assistance with iPhones, Android devices, new device setups, photo backups, and data transfers.

@@ -21,4 +21,4 @@ User-agent: Bingbot
 Allow: /
 
 # Pointer to your XML sitemap
-Sitemap: https://www.welwyntech.co.uk/sitemap.xml
+Sitemap: https://welwyntech.co.uk/sitemap.xml
